@@ -63,6 +63,16 @@
       "camera": "Dual 12MP+12MP",
       "display": "6.1 inches Super Retina XDR",
       "battery": "2815mAh",
+      "processor": "A14 Bionic",
+      "operating_system": "iOS 14",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.0, NFC, Lightning port",
+      "dimensions": "146.7 x 71.5 x 7.4 mm",
+      "weight": "164 grams",
+      "features": [
+        "Ceramic Shield front cover",
+        "MagSafe technology for accessories",
+        "Water and dust resistance (IP68)"
+      ],
       "manufacturer": {
         "name": "Apple Inc.",
         "country": "United States",
@@ -73,8 +83,8 @@
         "count": 0,
         "reviews": []
       },
-      "date": "2023-06-20T14:45:00",
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71gm8v4uPBL._SL1500_.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71gm8v4uPBL._SL1500_.jpg",
+      "date": "2023-06-20T14:45:00"
     },
     {
       "id": 3,
@@ -87,6 +97,17 @@
       "camera": "Quad 48MP+50MP+8MP+2MP",
       "display": "6.7 inches Fluid AMOLED",
       "battery": "4500mAh",
+      "processor": "Qualcomm Snapdragon 888",
+      "operating_system": "OxygenOS based on Android 11",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
+      "dimensions": "163.2 x 73.6 x 8.7 mm",
+      "weight": "197 grams",
+      "features": [
+        "Hasselblad camera partnership",
+        "120Hz Fluid AMOLED display",
+        "Warp Charge 65T",
+        "In-display fingerprint sensor"
+      ],
       "manufacturer": {
         "name": "OnePlus Technology Co., Ltd.",
         "country": "China",
@@ -100,9 +121,8 @@
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61H5BvUlNeS._SX679_.jpg",
       "date": "2023-07-25T08:15:00"
     },
-
     {
-      "id": 5,
+      "id": 4,
       "name": "Google Pixel 5",
       "brand": "Google",
       "description": "Pure Android experience with great camera capabilities.",
@@ -112,9 +132,83 @@
       "camera": "Dual 12.2MP+16MP",
       "display": "6.0 inches OLED",
       "battery": "4080mAh",
+      "processor": "Qualcomm Snapdragon 765G",
+      "operating_system": "Android 11",
+      "connectivity": "5G capable, Wi-Fi 5, Bluetooth 5.0, NFC, USB Type-C",
+      "dimensions": "144.7 x 70.4 x 8 mm",
+      "weight": "151 grams",
+      "features": [
+        "Night Sight for low-light photography",
+        "Astrophotography mode",
+        "Titan M security module",
+        "IP68 water and dust resistance"
+      ],
+      "manufacturer": {
+        "name": "Google LLC",
+        "country": "United States",
+        "website": "https://store.google.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81-fNmQqlLL._SX679_.jpg",
       "date": "2023-05-15T10:30:00"
     },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy S21",
+      "brand": "Samsung",
+      "description": "Experience cutting-edge technology with the Samsung Galaxy S21, a flagship smartphone packed with powerful features to redefine your mobile experience.",
+      "price": 999.99,
+      "color": "Phantom Gray",
+      "storage": "128GB",
+      "camera": "Triple 12MP (wide) + 12MP (ultrawide) + 64MP (telephoto)",
+      "display": "6.2 inches Dynamic AMOLED, 2400 x 1080 pixels resolution, 120Hz refresh rate",
+      "battery": "4000mAh, non-removable Li-Ion battery",
+      "processor": "Exynos 2100 (Global) / Snapdragon 888 (USA)",
+      "operating_system": "Android 11 with One UI 3.1",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.0, NFC, USB Type-C",
+      "dimensions": "151.7 x 71.2 x 7.9 mm",
+      "weight": "171 grams",
+      "features": [
+        "HDR10+ certified display for stunning visuals",
+        "In-display fingerprint sensor for enhanced security",
+        "Wireless PowerShare for reverse wireless charging",
+        "IP68 dust/water resistant for added durability",
+        "Stereo speakers tuned by AKG for immersive audio"
+      ],
+      "manufacturer": {
+        "name": "Samsung Electronics Co., Ltd.",
+        "country": "South Korea",
+        "website": "https://www.samsung.com/"
+      },
+      "ratings": {
+        "average": 4.5,
+        "count": 120,
+        "reviews": [
+          {
+            "user": "JohnDoe123",
+            "rating": 5,
+            "comment": "Fantastic phone with a stunning camera!"
+          },
+          {
+            "user": "TechEnthusiast22",
+            "rating": 4,
+            "comment": "Great performance and sleek design."
+          },
+          {
+            "user": "MobileGuru",
+            "rating": 4.5,
+            "comment": "Battery life is impressive, and the display is top-notch."
+          }
+        ]
+      },
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81cHpJNr07L._SL1500_.jpg",
+      "date": "2023-05-15T10:30:00"
+    },
+
     {
       "id": 6,
       "name": "Huawei P40 Pro",
@@ -126,6 +220,17 @@
       "camera": "Quad 50MP+40MP+12MP+TOF 3D",
       "display": "6.58 inches OLED",
       "battery": "4200mAh",
+      "processor": "HiSilicon Kirin 990 5G",
+      "operating_system": "Android 10 with EMUI 10.1",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.1, NFC, USB Type-C",
+      "dimensions": "158.2 x 72.6 x 9 mm",
+      "weight": "209 grams",
+      "features": [
+        "Leica quad-camera setup",
+        "In-screen fingerprint sensor",
+        "IP68 dust/water-resistant",
+        "Fast wireless charging"
+      ],
       "manufacturer": {
         "name": "Huawei Technologies Co., Ltd.",
         "country": "China",
@@ -150,6 +255,17 @@
       "camera": "Triple 12MP+12MP+12MP",
       "display": "6.5 inches 4K HDR OLED",
       "battery": "4500mAh",
+      "processor": "Qualcomm Snapdragon 888",
+      "operating_system": "Android 11",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
+      "dimensions": "165 x 71 x 8.2 mm",
+      "weight": "187 grams",
+      "features": [
+        "Cinematography Pro technology",
+        "IP65/IP68 dust/water-resistant",
+        "Stereo speakers with 3.5mm jack",
+        "Side-mounted fingerprint sensor"
+      ],
       "manufacturer": {
         "name": "Sony Corporation",
         "country": "Japan",
@@ -174,6 +290,17 @@
       "camera": "Triple 48MP+8MP+5MP",
       "display": "6.8 inches P-OLED",
       "battery": "4300mAh",
+      "processor": "Qualcomm Snapdragon 765G",
+      "operating_system": "Android 10",
+      "connectivity": "5G capable, Wi-Fi 5, Bluetooth 5.1, NFC, USB Type-C",
+      "dimensions": "167.2 x 74.1 x 7.9 mm",
+      "weight": "180 grams",
+      "features": [
+        "Dual-screen accessory support",
+        "In-display fingerprint sensor",
+        "3.5mm audio jack",
+        "Stereo speakers"
+      ],
       "manufacturer": {
         "name": "LG Corporation",
         "country": "South Korea",
@@ -198,6 +325,17 @@
       "camera": "Triple 48MP+2MP+2MP",
       "display": "6.6 inches IPS LCD",
       "battery": "5000mAh",
+      "processor": "Qualcomm Snapdragon 662",
+      "operating_system": "Android 10",
+      "connectivity": "4G LTE, Wi-Fi 5, Bluetooth 5.0, NFC, USB Type-C",
+      "dimensions": "165.3 x 75.9 x 9.5 mm",
+      "weight": "206.5 grams",
+      "features": [
+        "Massive battery capacity",
+        "Water-repellent design",
+        "Rear-mounted fingerprint sensor",
+        "Stock Android experience"
+      ],
       "manufacturer": {
         "name": "Motorola Mobility LLC",
         "country": "United States",
@@ -222,6 +360,17 @@
       "camera": "Quad 64MP+12MP+2MP+2MP",
       "display": "6.81 inches IPS LCD",
       "battery": "4500mAh",
+      "processor": "Qualcomm Snapdragon 765G",
+      "operating_system": "Android 10",
+      "connectivity": "5G capable, Wi-Fi 5, Bluetooth 5.0, NFC, USB Type-C",
+      "dimensions": "171.9 x 78.6 x 9 mm",
+      "weight": "220 grams",
+      "features": [
+        "ZEISS Optics camera system",
+        "PureDisplay technology",
+        "Dedicated Google Assistant button",
+        "Rear-mounted fingerprint sensor"
+      ],
       "manufacturer": {
         "name": "HMD Global Oy",
         "country": "Finland",
@@ -246,6 +395,25 @@
       "camera": "Triple 64MP+16MP+8MP",
       "display": "6.78 inches AMOLED",
       "battery": "6000mAh",
+      "features": [
+        "Advanced cooling technology for gaming",
+        "Triple camera setup for versatile photography",
+        "Large AMOLED display for immersive visuals"
+      ],
+      "operating_system": "ROG UI based on Android",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
+      "dimensions": "TBD",
+      "weight": "TBD",
+      "manufacturer": {
+        "name": "AsusTek Computer Inc.",
+        "country": "Taiwan",
+        "website": "https://www.asus.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
       "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone6-01.jpg",
       "date": "2023-11-15T09:45:00"
     },
@@ -260,7 +428,26 @@
       "camera": "Dual 64MP+16MP",
       "display": "6.92 inches AMOLED",
       "battery": "5500mAh",
-      "image": "https://m.media-amazon.com/images/I/61Wf-E+KPHL._AC_SX679_.jpghttps://m.media-amazon.com/images/I/51f6rBsgtnL._AC_SX679_.jpg",
+      "features": [
+        "Dual-turbo fan cooling system for gaming",
+        "High-capacity storage for extensive content",
+        "Large AMOLED display for immersive visuals"
+      ],
+      "operating_system": "ZUI 13 based on Android",
+      "connectivity": "5G capable, Wi-Fi 6E, Bluetooth 5.2, NFC, USB Type-C",
+      "dimensions": "TBD",
+      "weight": "TBD",
+      "manufacturer": {
+        "name": "Lenovo Group Ltd.",
+        "country": "China",
+        "website": "https://www.lenovo.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
+      "image": "https://m.media-amazon.com/images/I/61Wf-E+KPHL._AC_SX679_.jpg",
       "date": "2023-12-20T22:00:00"
     },
     {
@@ -274,6 +461,25 @@
       "camera": "Dual 16MP+12MP",
       "display": "5.5 inches IPS LCD",
       "battery": "4000mAh",
+      "features": [
+        "Iconic physical keyboard for tactile input",
+        "Dual camera setup for photography",
+        "Compact IPS LCD display"
+      ],
+      "operating_system": "BlackBerry OS",
+      "connectivity": "4G LTE, Wi-Fi 5, Bluetooth 5.0, NFC, USB Type-C",
+      "dimensions": "TBD",
+      "weight": "TBD",
+      "manufacturer": {
+        "name": "BlackBerry Limited",
+        "country": "Canada",
+        "website": "https://www.blackberry.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
       "image": "https://lovmobile.com/media/2022/12/_3/650x650/blackberry-key-3_b18a7.jpg",
       "date": "2024-01-25T11:30:00"
     },
@@ -288,6 +494,25 @@
       "camera": "Quad 64MP+64MP+64MP+8MP",
       "display": "6.67 inches AMOLED",
       "battery": "4600mAh",
+      "features": [
+        "Ultra-high resolution camera setup",
+        "Immersive AMOLED display",
+        "Large storage for multimedia"
+      ],
+      "operating_system": "MiFavor UI based on Android",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
+      "dimensions": "TBD",
+      "weight": "TBD",
+      "manufacturer": {
+        "name": "ZTE Corporation",
+        "country": "China",
+        "website": "https://www.zte.com.cn/global/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
       "image": "https://m.media-amazon.com/images/I/51f6rBsgtnL._AC_SX679_.jpg",
       "date": "2024-02-29T17:15:00"
     },
@@ -302,6 +527,26 @@
       "camera": "Triple 64MP+8MP+2MP",
       "display": "6.62 inches Super AMOLED",
       "battery": "5000mAh",
+      "features": [
+        "Super AMOLED display with 120Hz refresh rate",
+        "64MP AI triple camera",
+        "Dolby Atmos dual stereo speakers",
+        "Vapor Cooling System"
+      ],
+      "operating_system": "Realme UI 3.0 based on Android 12",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
+      "dimensions": "162.9 x 75.2 x 8.4 mm",
+      "weight": "188g",
+      "manufacturer": {
+        "name": "Realme Mobile Telecommunications (Shenzhen) Co., Ltd.",
+        "country": "China",
+        "website": "https://www.realme.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51dU-AhexwL._SY741_.jpg",
       "date": "2024-03-05T14:00:00"
     },
@@ -316,6 +561,25 @@
       "camera": "Quad 108MP+8MP+2MP+2MP",
       "display": "6.57 inches AMOLED",
       "battery": "4300mAh",
+      "features": [
+        "Versatile Quad camera system",
+        "Stylish design with AMOLED display",
+        "Large storage capacity"
+      ],
+      "operating_system": "Magic UI 5.1 based on Android 11",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
+      "dimensions": "TBD",
+      "weight": "TBD",
+      "manufacturer": {
+        "name": "Honor Mobile",
+        "country": "China",
+        "website": "https://www.hihonor.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
       "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-50-r2.jpg",
       "date": "2024-04-10T20:45:00"
     },
@@ -330,6 +594,25 @@
       "camera": "Triple 50MP+50MP+13MP",
       "display": "6.7 inches LTPO AMOLED",
       "battery": "5000mAh",
+      "features": [
+        "Innovative features for flagship experience",
+        "Premium design with Ceramic White color",
+        "Large storage capacity"
+      ],
+      "operating_system": "ColorOS 13 based on Android 12",
+      "connectivity": "5G capable, Wi-Fi 6E, Bluetooth 5.2, NFC, USB Type-C",
+      "dimensions": "TBD",
+      "weight": "TBD",
+      "manufacturer": {
+        "name": "Oppo Electronics Corp.",
+        "country": "China",
+        "website": "https://www.oppo.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
       "image": "https://www.gizmochina.com/wp-content/uploads/2021/11/resize-2021-11-25T165607.239-784x441-500x500.jpg",
       "date": "2024-05-15T12:30:00"
     },
@@ -344,6 +627,25 @@
       "camera": "Quad 50MP+48MP+12MP+8MP",
       "display": "6.78 inches AMOLED",
       "battery": "4500mAh",
+      "features": [
+        "Professional-grade photography with Zeiss optics",
+        "Large AMOLED display for immersive visuals",
+        "Large storage for extensive content"
+      ],
+      "operating_system": "OriginOS based on Android 12",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
+      "dimensions": "TBD",
+      "weight": "TBD",
+      "manufacturer": {
+        "name": "Vivo Communication Technology Co. Ltd.",
+        "country": "China",
+        "website": "https://www.vivo.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
       "image": "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/u/z/i/x70-pro-v2105-vivo-original-imag7bq4eumqhgka.jpeg?q=70",
       "date": "2024-06-20T16:00:00"
     },
@@ -359,7 +661,21 @@
       "display": "6.7 inches AMOLED",
       "battery": "4500mAh",
       "image": "https://rukminim2.flixcart.com/image/416/416/ku5ufm80/mobile/q/s/c/edge-20-pro-pany0009in-motorola-original-imag7csrdfzh6eqh.jpeg?q=70",
-      "date": "2024-07-25T14:15:00"
+      "date": "2024-07-25T14:15:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Motorola Mobility LLC",
+        "country": "United States",
+        "website": "https://www.motorola.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 20,
@@ -373,7 +689,21 @@
       "display": "5.99 inches P-OLED",
       "battery": "3320mAh",
       "image": "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/y/v/6/9-128-c-ta-1087-ds-nokia-6-original-imafg98nken2dhmh.jpeg?q=70",
-      "date": "2024-08-30T10:30:00"
+      "date": "2024-08-30T10:30:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "HMD Global Oy",
+        "country": "Finland",
+        "website": "https://www.nokia.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 21,
@@ -387,7 +717,21 @@
       "display": "6.5 inches 4K HDR OLED",
       "battery": "4500mAh",
       "image": "https://m.media-amazon.com/images/I/71xoD1b0KjL._AC_SX679_.jpg",
-      "date": "2024-09-05T18:45:00"
+      "date": "2024-09-05T18:45:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Sony Corporation",
+        "country": "Japan",
+        "website": "https://www.sony.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 22,
@@ -401,7 +745,21 @@
       "display": "6.81 inches AMOLED",
       "battery": "5000mAh",
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71giK9ZfWeS._SY741_.jpg",
-      "date": "2024-10-10T15:00:00"
+      "date": "2024-10-10T15:00:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Xiaomi Corporation",
+        "country": "China",
+        "website": "https://www.mi.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 23,
@@ -415,7 +773,21 @@
       "display": "6.7 inches LTPO OLED",
       "battery": "5000mAh",
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71FpXTBHDnL._SX679_.jpg",
-      "date": "2024-11-15T11:15:00"
+      "date": "2024-11-15T11:15:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Google LLC",
+        "country": "United States",
+        "website": "https://store.google.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 24,
@@ -429,7 +801,21 @@
       "display": "6.6 inches LTPO OLED",
       "battery": "4360mAh",
       "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-50-pro-r2.jpg",
-      "date": "2024-12-20T13:30:00"
+      "date": "2024-12-20T13:30:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Huawei Technologies Co., Ltd.",
+        "country": "China",
+        "website": "https://consumer.huawei.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 25,
@@ -443,7 +829,21 @@
       "display": "6.8 inches P-OLED",
       "battery": "4300mAh",
       "image": "https://static.toiimg.com/thumb/resizemode-4,msid-83006478,width-250,imgv-1/83006478.jpg",
-      "date": "2025-01-25T08:00:00"
+      "date": "2025-01-25T08:00:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "LG Corporation",
+        "country": "South Korea",
+        "website": "https://www.lg.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 26,
@@ -457,7 +857,21 @@
       "display": "6.67 inches AMOLED",
       "battery": "4500mAh",
       "image": "https://m.media-amazon.com/images/I/61LuwMOvAGL._AC_SX522_.jpg",
-      "date": "2025-02-29T19:45:00"
+      "date": "2025-02-29T19:45:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Black Shark Limited",
+        "country": "China",
+        "website": "https://global.blackshark.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 27,
@@ -471,7 +885,21 @@
       "display": "6.67 inches IPS LCD",
       "battery": "5160mAh",
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71u-1krs2XL._SX679_.jpg",
-      "date": "2025-03-05T09:30:00"
+      "date": "2025-03-05T09:30:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Xiaomi Corporation",
+        "country": "China",
+        "website": "https://www.mi.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 28,
@@ -485,7 +913,21 @@
       "display": "6.8 inches AMOLED",
       "battery": "5000mAh",
       "image": "https://fdn2.gsmarena.com/vv/pics/zte/zte-nubia-red-magic-7-1.jpg",
-      "date": "2025-04-10T14:15:00"
+      "date": "2025-04-10T14:15:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Nubia Technology Co., Ltd.",
+        "country": "China",
+        "website": "https://www.nubia.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 29,
@@ -499,7 +941,21 @@
       "display": "6.67 inches Super AMOLED",
       "battery": "4500mAh",
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/41E6NOuNt3L.jpg",
-      "date": "2025-05-15T20:00:00"
+      "date": "2025-05-15T20:00:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Poco Global",
+        "country": "India",
+        "website": "https://www.poco.net/global/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 30,
@@ -513,7 +969,21 @@
       "display": "6.7 inches Super AMOLED",
       "battery": "4700mAh",
       "image": "https://fdn2.gsmarena.com/vv/pics/infinix/infinix-zero-x-pro-.jpg",
-      "date": "2025-06-20T11:45:00"
+      "date": "2025-06-20T11:45:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Infinix Mobility Limited",
+        "country": "Hong Kong",
+        "website": "https://www.infinixmobility.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 31,
@@ -527,7 +997,21 @@
       "display": "6.5 inches IPS LCD",
       "battery": "6000mAh",
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81Ke5qtC6oL._SX679_.jpg",
-      "date": "2025-07-25T17:30:00"
+      "date": "2025-07-25T17:30:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Realme Mobile Telecommunications (Shenzhen) Co., Ltd.",
+        "country": "China",
+        "website": "https://www.realme.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 32,
@@ -541,7 +1025,21 @@
       "display": "6.9 inches OLED",
       "battery": "5000mAh",
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/713sb7VUFQL._SX569_.jpg",
-      "date": "2025-08-30T10:00:00"
+      "date": "2025-08-30T10:00:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Motorola Mobility LLC",
+        "country": "United States",
+        "website": "https://www.motorola.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 33,
@@ -555,7 +1053,21 @@
       "display": "6.44 inches AMOLED",
       "battery": "4100mAh",
       "image": "https://s3bo.cashify.in/gpro/uploads/2021/03/27112258/vivo-y73s-front.png?p=gp4sq&s=gp",
-      "date": "2025-09-05T15:45:00"
+      "date": "2025-09-05T15:45:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Vivo Communication Technology Co. Ltd.",
+        "country": "China",
+        "website": "https://www.vivo.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 34,
@@ -569,7 +1081,21 @@
       "display": "6.5 inches AMOLED",
       "battery": "4500mAh",
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/31Tah4TynYL.jpg",
-      "date": "2025-10-10T21:30:00"
+      "date": "2025-10-10T21:30:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Oppo Electronics Corp.",
+        "country": "China",
+        "website": "https://www.oppo.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 35,
@@ -583,7 +1109,21 @@
       "display": "6.8 inches AMOLED",
       "battery": "6000mAh",
       "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone6-01.jpg",
-      "date": "2025-11-15T12:15:00"
+      "date": "2025-11-15T12:15:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "ASUSTeK Computer Inc.",
+        "country": "Taiwan",
+        "website": "https://www.asus.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 36,
@@ -597,7 +1137,21 @@
       "display": "6.92 inches AMOLED",
       "battery": "5500mAh",
       "image": "https://images.hindustantimes.com/tech/htmobile4/P37132/heroimage/149300-v1-lenovo-legion-duel-3-5g-mobile-phone-large-1.jpg?impolicy=new-ht-20210112&width=500&height=500",
-      "date": "2025-12-20T14:30:00"
+      "date": "2025-12-20T14:30:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Lenovo Group Limited",
+        "country": "China",
+        "website": "https://www.lenovo.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 37,
@@ -611,7 +1165,21 @@
       "display": "6.82 inches IPS LCD",
       "battery": "4850mAh",
       "image": "https://m.media-amazon.com/images/I/51P9CqFy0IL._AC_SX466_.jpg",
-      "date": "2026-01-25T09:15:00"
+      "date": "2026-01-25T09:15:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "HMD Global",
+        "country": "Finland",
+        "website": "https://www.nokia.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 38,
@@ -625,7 +1193,21 @@
       "display": "6.67 inches AMOLED",
       "battery": "4600mAh",
       "image": "https://fdn2.gsmarena.com/vv/pics/zte/zte-axon-30-ultra-1.jpg",
-      "date": "2026-02-29T19:30:00"
+      "date": "2026-02-29T19:30:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "ZTE Corporation",
+        "country": "China",
+        "website": "https://www.zte.com.cn/global/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     },
     {
       "id": 39,
@@ -639,7 +1221,21 @@
       "display": "5.7 inches FLIR thermal display",
       "battery": "4000mAh",
       "image": "https://rukminim2.flixcart.com/image/416/416/kg9qbgw0/mobile/f/f/j/cat-s62-pro-s62-pro-original-imafwjq4zngsqsfb.jpeg?q=70",
-      "date": "2026-03-05T14:45:00"
+      "date": "2026-03-05T14:45:00",
+      "features": [],
+      "operating_system": null,
+      "connectivity": null,
+      "weight": null,
+      "manufacturer": {
+        "name": "Bullitt Group Limited",
+        "country": "United Kingdom",
+        "website": "https://www.catphones.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      }
     }
   ]
 }

@@ -10,7 +10,6 @@ import {
 } from "react-router-dom";
 import "./App.scss";
 import Home from "./pages/Home/Home";
-import SingleProduct from "./pages/SingleProduct/SingleProduct";
 import MobileMenu from "./components/MobileMenu/MobileNavar";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -18,6 +17,7 @@ import Login from "./pages/auth/Login/Login";
 import Register from "./pages/auth/Register/Register";
 import SearchPage from "./pages/Search/SearchPage";
 import ProductListingPage from "./pages/ProductListingPage/ProductListingPage";
+import ProductDetailsPage from "./pages/SingleProduct/ProductDetailsPage";
 
 function App() {
   const queryClient = new QueryClient();
@@ -46,12 +46,12 @@ function App() {
           element: <Home />,
         },
         {
-          path:"/products",
-          element:<ProductListingPage/>
+          path: "/products",
+          element: <ProductListingPage />,
         },
         {
           path: "/product/:id",
-          element: <SingleProduct />,
+          element: <ProductDetailsPage />,
         },
         {
           path: "/search",
