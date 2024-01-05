@@ -14,7 +14,6 @@ const MobileFilters = () => {
   const toggleFilters = () => {
     setShowFilters(!showFilters);
   };
-
   return (
     <div className="mobile-filters">
       <button className="toggle-filters-button" onClick={toggleFilters}>
