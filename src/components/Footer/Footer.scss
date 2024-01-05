@@ -1,0 +1,203 @@
+// Footer.scss
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    color: #333;
+    border-top: 0.5px solid #ebebeb54;
+  
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+    }
+    .left {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+  
+      .logo {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+  
+      .social-icons {
+        display: flex;
+        gap: 10px;
+        font-size: 1.5rem;
+        cursor: pointer;
+  
+        .social__icon__FB {
+          color: #3b5998;
+          &:hover {
+            color: #4172da;
+          }
+        }
+        .social__icon__TW {
+          color: #000000;
+          &:hover {
+            color: #0f1518;
+          }
+        }
+        .social__icon__IG {
+          color: #e1306c;
+          &:hover {
+            color: #e1306c;
+          }
+        }
+        .social__icon__LD {
+          color: #0077b5;
+          &:hover {
+            color: #0077b5;
+          }
+        }
+      }
+    }
+  
+    .middle {
+      flex: 2;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      .middle_Title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        align-self: center;
+      }
+      .footer-links {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        font-size: 1rem;
+  
+        .footer__link {
+          margin-bottom: 10px;
+          text-decoration: none;
+          color: #333;
+          align-self: center;
+          font-size: 1rem;
+          transition: color 0.3s;
+          position: relative;
+  
+          &::before {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #f26a2e;
+            transition: width 0.3s ease-in-out;
+          }
+  
+          &:hover {
+            color: #f26a2e;
+  
+            &::before {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  
+    .right {
+      flex: 2;
+  
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+  
+      @media screen and (max-width: 480px) {
+        width: 100%;
+      }
+      .newsletter {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .newsLetter_Title {
+          font-size: 1.2rem;
+          font-weight: bold;
+          margin-bottom: 10px;
+          align-self: center;
+        }
+        .newLetter__input {
+          padding: 10px 15px;
+          border: 1px solid #f26a2e;
+          border-radius: 5px;
+          outline: none;
+          font-size: 1rem;
+          transition: border-color 0.3s, box-shadow 0.3s;
+          animation: shine 1s infinite;
+  
+          &:focus {
+            border-color: #f75a17;
+            box-shadow: 0 0 5px #f26a2e;
+          }
+        }
+  
+        .newLetter__btn {
+          padding: 10px;
+          background-color: #f26a2e;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          width: 100%;
+          transition: background-color 0.3s;
+          font-size: 1rem;
+  
+          &:hover {
+            background-color: #f7520b;
+            transform: scale(1.05);
+            transition: background-color 0.3s, transform 0.3s;
+  
+            &::after {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0.5;
+              background: linear-gradient(
+                to right,
+                transparent 30%,
+                #fff 50%,
+                transparent 70%
+              );
+              animation: shine 1s infinite;
+            }
+          }
+        }
+      }
+    }
+  
+    .bottom {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+  
+      p {
+        margin: 0;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  @keyframes shine {
+    to {
+      background-position: 200% 0;
+    }
+  }

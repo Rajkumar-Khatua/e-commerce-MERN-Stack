@@ -1,0 +1,607 @@
+{
+  "mobiles": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S21",
+      "brand": "Samsung",
+      "description": "Experience cutting-edge technology with the Samsung Galaxy S21, a flagship smartphone packed with powerful features to redefine your mobile experience.",
+      "price": 999.99,
+      "color": "Phantom Gray",
+      "storage": "128GB",
+      "camera": "Triple 12MP (wide) + 12MP (ultrawide) + 64MP (telephoto)",
+      "display": "6.2 inches Dynamic AMOLED, 2400 x 1080 pixels resolution, 120Hz refresh rate",
+      "battery": "4000mAh, non-removable Li-Ion battery",
+      "processor": "Exynos 2100 (Global) / Snapdragon 888 (USA)",
+      "operating_system": "Android 11 with One UI 3.1",
+      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.0, NFC, USB Type-C",
+      "dimensions": "151.7 x 71.2 x 7.9 mm",
+      "weight": "171 grams",
+      "features": [
+        "HDR10+ certified display for stunning visuals",
+        "In-display fingerprint sensor for enhanced security",
+        "Wireless PowerShare for reverse wireless charging",
+        "IP68 dust/water resistant for added durability",
+        "Stereo speakers tuned by AKG for immersive audio"
+      ],
+      "manufacturer": {
+        "name": "Samsung Electronics Co., Ltd.",
+        "country": "South Korea",
+        "website": "https://www.samsung.com/"
+      },
+      "ratings": {
+        "average": 4.5,
+        "count": 120,
+        "reviews": [
+          {
+            "user": "JohnDoe123",
+            "rating": 5,
+            "comment": "Fantastic phone with a stunning camera!"
+          },
+          {
+            "user": "TechEnthusiast22",
+            "rating": 4,
+            "comment": "Great performance and sleek design."
+          },
+          {
+            "user": "MobileGuru",
+            "rating": 4.5,
+            "comment": "Battery life is impressive, and the display is top-notch."
+          }
+        ]
+      },
+      "image": "https://example.com/samsung-galaxy-s21.jpg"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 12",
+      "brand": "Apple",
+      "description": "Elegant and high-performance iPhone.",
+      "price": 1099.99,
+      "color": "Midnight Green",
+      "storage": "256GB",
+      "camera": "Dual 12MP+12MP",
+      "display": "6.1 inches Super Retina XDR",
+      "battery": "2815mAh",
+      "manufacturer": {
+        "name": "Apple Inc.",
+        "country": "United States",
+        "website": "https://www.apple.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
+      "image": "https://example.com/iphone-12.jpg"
+    },
+    {
+      "id": 3,
+      "name": "OnePlus 9 Pro",
+      "brand": "OnePlus",
+      "description": "Flagship killer with Hasselblad camera.",
+      "price": 899.99,
+      "color": "Morning Mist",
+      "storage": "256GB",
+      "camera": "Quad 48MP+50MP+8MP+2MP",
+      "display": "6.7 inches Fluid AMOLED",
+      "battery": "4500mAh",
+      "manufacturer": {
+        "name": "OnePlus Technology Co., Ltd.",
+        "country": "China",
+        "website": "https://www.oneplus.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
+      "image": "https://example.com/oneplus-9-pro.jpg"
+    },
+
+    {
+      "id": 5,
+      "name": "Google Pixel 5",
+      "brand": "Google",
+      "description": "Pure Android experience with great camera capabilities.",
+      "price": 699.99,
+      "color": "Just Black",
+      "storage": "128GB",
+      "camera": "Dual 12.2MP+16MP",
+      "display": "6.0 inches OLED",
+      "battery": "4080mAh",
+      "image": "https://example.com/google-pixel-5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Huawei P40 Pro",
+      "brand": "Huawei",
+      "description": "Leica quad-camera system for stunning photography.",
+      "price": 799.99,
+      "color": "Silver Frost",
+      "storage": "256GB",
+      "camera": "Quad 50MP+40MP+12MP+TOF 3D",
+      "display": "6.58 inches OLED",
+      "battery": "4200mAh",
+      "manufacturer": {
+        "name": "Huawei Technologies Co., Ltd.",
+        "country": "China",
+        "website": "https://consumer.huawei.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
+      "image": "https://example.com/huawei-p40-pro.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Sony Xperia 1 III",
+      "brand": "Sony",
+      "description": "Cinematic 4K HDR display and versatile camera features.",
+      "price": 1099.99,
+      "color": "Black",
+      "storage": "256GB",
+      "camera": "Triple 12MP+12MP+12MP",
+      "display": "6.5 inches 4K HDR OLED",
+      "battery": "4500mAh",
+      "manufacturer": {
+        "name": "Sony Corporation",
+        "country": "Japan",
+        "website": "https://www.sony.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
+      "image": "https://example.com/sony-xperia-1-iii.jpg"
+    },
+    {
+      "id": 8,
+      "name": "LG Velvet",
+      "brand": "LG",
+      "description": "Sleek design with dual-screen capabilities.",
+      "price": 699.99,
+      "color": "Aurora Gray",
+      "storage": "128GB",
+      "camera": "Triple 48MP+8MP+5MP",
+      "display": "6.8 inches P-OLED",
+      "battery": "4300mAh",
+      "manufacturer": {
+        "name": "LG Corporation",
+        "country": "South Korea",
+        "website": "https://www.lg.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
+      "image": "https://example.com/lg-velvet.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Motorola Moto G Power (2021)",
+      "brand": "Motorola",
+      "description": "Long-lasting battery life for budget-conscious users.",
+      "price": 199.99,
+      "color": "Flash Gray",
+      "storage": "64GB",
+      "camera": "Triple 48MP+2MP+2MP",
+      "display": "6.6 inches IPS LCD",
+      "battery": "5000mAh",
+      "manufacturer": {
+        "name": "Motorola Mobility LLC",
+        "country": "United States",
+        "website": "https://www.motorola.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
+      "image": "https://example.com/moto-g-power-2021.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Nokia 8.3 5G",
+      "brand": "Nokia",
+      "description": "Global 5G connectivity and PureDisplay technology.",
+      "price": 599.99,
+      "color": "Polar Night",
+      "storage": "128GB",
+      "camera": "Quad 64MP+12MP+2MP+2MP",
+      "display": "6.81 inches IPS LCD",
+      "battery": "4500mAh",
+      "manufacturer": {
+        "name": "HMD Global Oy",
+        "country": "Finland",
+        "website": "https://www.nokia.com/"
+      },
+      "ratings": {
+        "average": 0,
+        "count": 0,
+        "reviews": []
+      },
+      "image": "https://example.com/nokia-8-3-5g.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Asus ROG Phone 6",
+      "brand": "Asus",
+      "description": "Gaming powerhouse with advanced cooling technology.",
+      "price": 1199.99,
+      "color": "Black",
+      "storage": "256GB",
+      "camera": "Triple 64MP+16MP+8MP",
+      "display": "6.78 inches AMOLED",
+      "battery": "6000mAh",
+      "image": "https://example.com/asus-rog-phone-6.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Lenovo Legion Phone Duel 2",
+      "brand": "Lenovo",
+      "description": "Dual-turbo fan cooling for an enhanced gaming experience.",
+      "price": 1099.99,
+      "color": "Titanium White",
+      "storage": "512GB",
+      "camera": "Dual 64MP+16MP",
+      "display": "6.92 inches AMOLED",
+      "battery": "5500mAh",
+      "image": "https://example.com/lenovo-legion-phone-duel-2.jpg"
+    },
+    {
+      "id": 13,
+      "name": "BlackBerry Key3",
+      "brand": "BlackBerry",
+      "description": "Iconic physical keyboard with modern smartphone features.",
+      "price": 799.99,
+      "color": "Silver",
+      "storage": "128GB",
+      "camera": "Dual 16MP+12MP",
+      "display": "5.5 inches IPS LCD",
+      "battery": "4000mAh",
+      "image": "https://example.com/blackberry-key3.jpg"
+    },
+    {
+      "id": 14,
+      "name": "ZTE Axon 30 Ultra",
+      "brand": "ZTE",
+      "description": "Ultra-high resolution camera setup for photography enthusiasts.",
+      "price": 899.99,
+      "color": "Aquamarine Green",
+      "storage": "256GB",
+      "camera": "Quad 64MP+64MP+64MP+8MP",
+      "display": "6.67 inches AMOLED",
+      "battery": "4600mAh",
+      "image": "https://example.com/zte-axon-30-ultra.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Realme GT Neo 2",
+      "brand": "Realme",
+      "description": "High-performance mid-range smartphone with a sleek design.",
+      "price": 499.99,
+      "color": "Neon Silver",
+      "storage": "128GB",
+      "camera": "Triple 64MP+8MP+2MP",
+      "display": "6.62 inches Super AMOLED",
+      "battery": "5000mAh",
+      "image": "https://example.com/realme-gt-neo-2.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Honor 50",
+      "brand": "Honor",
+      "description": "Stylish smartphone with a versatile camera system.",
+      "price": 699.99,
+      "color": "Midnight Black",
+      "storage": "256GB",
+      "camera": "Quad 108MP+8MP+2MP+2MP",
+      "display": "6.57 inches AMOLED",
+      "battery": "4300mAh",
+      "image": "https://example.com/honor-50.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Oppo Find X4 Pro",
+      "brand": "Oppo",
+      "description": "Innovative features and premium design for flagship experience.",
+      "price": 1199.99,
+      "color": "Ceramic White",
+      "storage": "512GB",
+      "camera": "Triple 50MP+50MP+13MP",
+      "display": "6.7 inches LTPO AMOLED",
+      "battery": "5000mAh",
+      "image": "https://example.com/oppo-find-x4-pro.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Vivo X70 Pro+",
+      "brand": "Vivo",
+      "description": "Professional-grade photography with Zeiss optics.",
+      "price": 999.99,
+      "color": "Deep Sea Blue",
+      "storage": "256GB",
+      "camera": "Quad 50MP+48MP+12MP+8MP",
+      "display": "6.78 inches AMOLED",
+      "battery": "4500mAh",
+      "image": "https://example.com/vivo-x70-pro-plus.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Motorola Edge 20 Pro",
+      "brand": "Motorola",
+      "description": "Slim and powerful device with a high-refresh-rate display.",
+      "price": 799.99,
+      "color": "Cosmic Gray",
+      "storage": "256GB",
+      "camera": "Triple 108MP+16MP+8MP",
+      "display": "6.7 inches AMOLED",
+      "battery": "4500mAh",
+      "image": "https://example.com/motorola-edge-20-pro.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Nokia 9 PureView",
+      "brand": "Nokia",
+      "description": "Revolutionary penta-lens camera for unparalleled photography.",
+      "price": 899.99,
+      "color": "Midnight Blue",
+      "storage": "128GB",
+      "camera": "Penta 12MP+12MP+12MP+12MP+12MP",
+      "display": "5.99 inches P-OLED",
+      "battery": "3320mAh",
+      "image": "https://example.com/nokia-9-pureview.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Sony Xperia 1 III",
+      "brand": "Sony",
+      "description": "Flagship device with a 4K HDR OLED display.",
+      "price": 1299.99,
+      "color": "Frosted Black",
+      "storage": "256GB",
+      "camera": "Triple 12MP+12MP+12MP",
+      "display": "6.5 inches 4K HDR OLED",
+      "battery": "4500mAh",
+      "image": "https://example.com/sony-xperia-1-iii.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Xiaomi Mi 11 Ultra",
+      "brand": "Xiaomi",
+      "description": "Feature-packed flagship with a secondary display on the back.",
+      "price": 1099.99,
+      "color": "Ceramic Black",
+      "storage": "512GB",
+      "camera": "Triple 50MP+48MP+48MP",
+      "display": "6.81 inches AMOLED",
+      "battery": "5000mAh",
+      "image": "https://example.com/xiaomi-mi-11-ultra.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Google Pixel 6 Pro",
+      "brand": "Google",
+      "description": "Top-notch camera performance with computational photography.",
+      "price": 899.99,
+      "color": "Cloudy White",
+      "storage": "128GB",
+      "camera": "Triple 50MP+12MP+48MP",
+      "display": "6.7 inches LTPO OLED",
+      "battery": "5000mAh",
+      "image": "https://example.com/google-pixel-6-pro.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Huawei P50 Pro",
+      "brand": "Huawei",
+      "description": "Leica-powered camera system for exceptional photography.",
+      "price": 1199.99,
+      "color": "Golden Brown",
+      "storage": "256GB",
+      "camera": "Quad 50MP+40MP+12MP+13MP",
+      "display": "6.6 inches LTPO OLED",
+      "battery": "4360mAh",
+      "image": "https://example.com/huawei-p50-pro.jpg"
+    },
+    {
+      "id": 25,
+      "name": "LG Velvet 2 Pro",
+      "brand": "LG",
+      "description": "Elegant design with a focus on multimedia experience.",
+      "price": 799.99,
+      "color": "Aurora Green",
+      "storage": "128GB",
+      "camera": "Triple 64MP+12MP+8MP",
+      "display": "6.8 inches P-OLED",
+      "battery": "4300mAh",
+      "image": "https://example.com/lg-velvet-2-pro.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Black Shark 4 Pro",
+      "brand": "Black Shark",
+      "description": "Gaming-oriented smartphone with high-refresh-rate display.",
+      "price": 899.99,
+      "color": "Shadow Black",
+      "storage": "256GB",
+      "camera": "Triple 64MP+8MP+5MP",
+      "display": "6.67 inches AMOLED",
+      "battery": "4500mAh",
+      "image": "https://example.com/black-shark-4-pro.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Redmi Note 11 Pro",
+      "brand": "Redmi",
+      "description": "Mid-range device with a versatile camera system.",
+      "price": 499.99,
+      "color": "Glacier Blue",
+      "storage": "128GB",
+      "camera": "Quad 108MP+8MP+5MP+2MP",
+      "display": "6.67 inches IPS LCD",
+      "battery": "5160mAh",
+      "image": "https://example.com/redmi-note-11-pro.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Nubia Red Magic 7",
+      "brand": "Nubia",
+      "description": "Dedicated gaming smartphone with RGB lighting accents.",
+      "price": 999.99,
+      "color": "Solar Eclipse",
+      "storage": "256GB",
+      "camera": "Triple 64MP+8MP+2MP",
+      "display": "6.8 inches AMOLED",
+      "battery": "5000mAh",
+      "image": "https://example.com/nubia-red-magic-7.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Poco F4 Pro",
+      "brand": "Poco",
+      "description": "High-performance device at an affordable price.",
+      "price": 599.99,
+      "color": "Graphite Black",
+      "storage": "128GB",
+      "camera": "Triple 64MP+8MP+2MP",
+      "display": "6.67 inches Super AMOLED",
+      "battery": "4500mAh",
+      "image": "https://example.com/poco-f4-pro.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Infinix Zero X Pro",
+      "brand": "Infinix",
+      "description": "Impressive camera capabilities with periscope lens.",
+      "price": 449.99,
+      "color": "Starry Silver",
+      "storage": "256GB",
+      "camera": "Triple 108MP+8MP+5MP",
+      "display": "6.7 inches Super AMOLED",
+      "battery": "4700mAh",
+      "image": "https://example.com/infinix-zero-x-pro.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Realme Narzo 50A",
+      "brand": "Realme",
+      "description": "Budget-friendly device with a large battery.",
+      "price": 199.99,
+      "color": "Oxygen Blue",
+      "storage": "64GB",
+      "camera": "Dual 50MP+2MP",
+      "display": "6.5 inches IPS LCD",
+      "battery": "6000mAh",
+      "image": "https://example.com/realme-narzo-50a.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Motorola Edge 30",
+      "brand": "Motorola",
+      "description": "Slim and stylish device with a focus on multimedia.",
+      "price": 799.99,
+      "color": "Mystic Bronze",
+      "storage": "128GB",
+      "camera": "Triple 108MP+8MP+2MP",
+      "display": "6.9 inches OLED",
+      "battery": "5000mAh",
+      "image": "https://example.com/motorola-edge-30.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Vivo Y73s",
+      "brand": "Vivo",
+      "description": "Sleek design with a capable front camera for selfies.",
+      "price": 349.99,
+      "color": "Diamond Black",
+      "storage": "128GB",
+      "camera": "Triple 64MP+8MP+2MP",
+      "display": "6.44 inches AMOLED",
+      "battery": "4100mAh",
+      "image": "https://example.com/vivo-y73s.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Oppo Reno 7 Pro",
+      "brand": "Oppo",
+      "description": "Premium mid-range device with a focus on imaging.",
+      "price": 699.99,
+      "color": "Stellar Black",
+      "storage": "256GB",
+      "camera": "Quad 50MP+16MP+13MP+2MP",
+      "display": "6.5 inches AMOLED",
+      "battery": "4500mAh",
+      "image": "https://example.com/oppo-reno-7-pro.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Asus ROG Phone 6",
+      "brand": "Asus",
+      "description": "Powerful gaming smartphone with a high-refresh-rate display.",
+      "price": 1199.99,
+      "color": "Storm Gray",
+      "storage": "512GB",
+      "camera": "Triple 64MP+13MP+5MP",
+      "display": "6.8 inches AMOLED",
+      "battery": "6000mAh",
+      "image": "https://example.com/asus-rog-phone-6.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Lenovo Legion Phone Duel 3",
+      "brand": "Lenovo",
+      "description": "Gaming-centric device with a unique side-mounted pop-up camera.",
+      "price": 1099.99,
+      "color": "Blazing Blue",
+      "storage": "256GB",
+      "camera": "Dual 64MP+16MP",
+      "display": "6.92 inches AMOLED",
+      "battery": "5500mAh",
+      "image": "https://example.com/lenovo-legion-phone-duel-3.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Nokia G50",
+      "brand": "Nokia",
+      "description": "Affordable 5G device with a durable design.",
+      "price": 299.99,
+      "color": "Glacier Blue",
+      "storage": "128GB",
+      "camera": "Triple 48MP+5MP+2MP",
+      "display": "6.82 inches IPS LCD",
+      "battery": "4850mAh",
+      "image": "https://example.com/nokia-g50.jpg"
+    },
+    {
+      "id": 38,
+      "name": "ZTE Axon 30 Ultra",
+      "brand": "ZTE",
+      "description": "Flagship-level device with advanced camera features.",
+      "price": 899.99,
+      "color": "Mystic Silver",
+      "storage": "256GB",
+      "camera": "Quad 64MP+64MP+64MP+8MP",
+      "display": "6.67 inches AMOLED",
+      "battery": "4600mAh",
+      "image": "https://example.com/zte-axon-30-ultra.jpg"
+    },
+    {
+      "id": 39,
+      "name": "CAT S62 Pro",
+      "brand": "CAT",
+      "description": "Rugged smartphone with thermal imaging camera.",
+      "price": 699.99,
+      "color": "Black",
+      "storage": "128GB",
+      "camera": "Dual 12MP+8MP",
+      "display": "5.7 inches FLIR thermal display",
+      "battery": "4000mAh",
+      "image": "https://example.com/cat-s62-pro.jpg"
+    }
+  ]
+}
