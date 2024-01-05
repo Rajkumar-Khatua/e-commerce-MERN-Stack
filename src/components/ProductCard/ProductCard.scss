@@ -7,17 +7,41 @@
   margin-bottom: 20px;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  // height: 150px;
+  width: 100%;
+  padding: 10px;
+  margin-right: -10px;
+
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
 
   .product-image {
-    width: 150px;
-    height: 150px;
+    width: 370px;
+    height: 370px;
     object-fit: cover;
     border-right: 1px solid #ddd;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
   }
 
   .product-details {
     padding: 15px;
     flex-grow: 1;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-start;
+    align-self: center;
+    // justify-content: space-between;
 
     .product-name {
       font-size: 18px;
@@ -30,18 +54,62 @@
       color: #555;
       margin-bottom: 15px;
     }
-
-    button {
-      background-color: #007bff;
-      color: #fff;
+    .actions {
+      display: flex;
+      align-items: center;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        
+      }
+    }
+    .product-cart {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #000000;
+      color: #ffffff;
       border: none;
-      padding: 8px 15px;
+      padding: 10px 20px;
       border-radius: 5px;
       cursor: pointer;
       margin-right: 10px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: #ffffff;
+        color: #000000;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .cart-icon {
+        font-size: 20px;
+      }
+    }
+    .product-details-btn {
+      background-color: #000000;
+      color: #ffffff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 16px;
+      transition: all 0.3s ease-in-out;
 
-      &:last-child {
-        background-color: #28a745;
+      &:hover {
+        background-color: #ffffff;
+        color: #000000;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .details-icon {
+        font-size: 20px;
       }
     }
   }

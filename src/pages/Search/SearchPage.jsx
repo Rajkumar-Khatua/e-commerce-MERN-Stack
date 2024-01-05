@@ -1,55 +1,8 @@
-// SearchPage.js
+// SearchPage.jsx
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./searchPage.scss";
 import data from "../../../data.json";
-
-// Assume productsData is an array of products with 'id', 'name', and 'description' properties
-const productsData = [
-  {
-    id: 1,
-    name: "Samsung Galaxy",
-    description: "Powerful smartphone with great features.",
-    image:
-      "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81pmO0iVNhL._SL1500_.jpg",
-  },
-  { id: 2, name: "Readme", description: "Affordable and feature-packed." },
-  {
-    id: 3,
-    name: "Vivo",
-    description: "Innovative technology for mobile lovers.",
-    image:
-      "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/618RKy-9R7L._SL1200_.jpg",
-  },
-  {
-    id: 4,
-    name: "Oppo",
-    description: "Capture the best moments with Oppo cameras.",
-    image:
-      "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/8104evx11QL._SL1500_.jpg",
-  },
-  {
-    id: 5,
-    name: "Apple",
-    description: "Elegance meets performance.",
-    image:
-      "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71657TiFeHL._SL1500_.jpg",
-  },
-  {
-    id: 6,
-    name: "OnePlus",
-    description: "Never settle for less.",
-    image:
-      "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61CTkx2jIsL._SL1500_.jpg",
-  },
-  {
-    id: 7,
-    name: "Realme",
-    description: "Youthful and trendy mobile devices.",
-    image:
-      "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61B2t2Ul9zL._SL1440_.jpg",
-  },
-];
 
 const SearchPage = () => {
   const [searchQuery, setSearchQuery] = useState("");

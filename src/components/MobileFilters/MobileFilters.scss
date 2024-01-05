@@ -1,0 +1,291 @@
+// MobileFilters.scss
+.mobile-filters {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px;
+  border-radius: 5px;
+
+  .toggle-filters-button {
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    z-index: 999;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+    &:focus {
+      background-color: #f26a2e;
+    }
+    .filter-icon {
+      font-size: 20px;
+    }
+  }
+
+  .filters {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    overflow-y: scroll;
+    max-height: 80vh;
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    .filter-heading {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 30px;
+      .filter-title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        cursor: pointer;
+        background: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+        padding: 10px 20px;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          color: #f26a2e;
+          .filter-icon {
+            color: #f26a2e;
+          }
+        }
+        .filter-icon {
+          transition: all 0.3s ease-in-out;
+          font-size: 20px;
+          color: #141414;
+        }
+      }
+      .filter-clear {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        background: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          color: #f26a2e;
+          .filter-clear-icon {
+            color: #f26a2e;
+          }
+        }
+        .filter-clear-icon {
+          transition: all 0.3s ease-in-out;
+          font-size: 20px;
+          color: #141414;
+        }
+      }
+    }
+    //   filter by date
+    .filter-by-date {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      .filter-by-date-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .filter-by-date-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .filter-by-date-item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          background: #ffffff;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+          padding: 10px 20px;
+          border-radius: 8px;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+
+    // filter by price in input range
+    .filter-by-price {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+
+      .filter-by-price-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .filter-by-price-range {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        cursor: pointer;
+        background: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+        padding: 10px 20px;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+        .price-range-input {
+        }
+      }
+    }
+
+    //   filter by brands
+    .filter-by-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      .filter-by-brand-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .filter-by-brand-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+        .filter-by-brand-item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          background: #ffffff;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+          padding: 10px 20px;
+          border-radius: 8px;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+
+    //   filter by category
+    .filter-by-category {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      .filter-by-category-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .filter-by-category-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+        .filter-by-category-item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          background: #ffffff;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+          padding: 10px 20px;
+          border-radius: 8px;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+
+    //  filter by color
+    .filter-by-color {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      .filter-by-color-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .filter-by-color-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+        .filter-by-color-item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          background: #ffffff;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+          padding: 10px 20px;
+          border-radius: 8px;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+
+    // Filter by Ratings
+    .filter-by-rating {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+
+      .filter-by-rating-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .filter-by-rating-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+        .filter-by-rating-item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          background: #ffffff;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+          padding: 10px 20px;
+          border-radius: 8px;
+          transition: all 0.3s ease-in-out;
+
+          .rating-icon {
+            font-size: 20px;
+            color: #f26a2e;
+          }
+        }
+      }
+    }
+  }
+}

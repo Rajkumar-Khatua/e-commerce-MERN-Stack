@@ -17,6 +17,7 @@ import Footer from "./components/Footer/Footer";
 import Login from "./pages/auth/Login/Login";
 import Register from "./pages/auth/Register/Register";
 import SearchPage from "./pages/Search/SearchPage";
+import ProductListingPage from "./pages/ProductListingPage/ProductListingPage";
 
 function App() {
   const queryClient = new QueryClient();
@@ -43,6 +44,10 @@ function App() {
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path:"/products",
+          element:<ProductListingPage/>
         },
         {
           path: "/product/:id",
