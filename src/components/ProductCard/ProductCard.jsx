@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { FaOpencart } from "react-icons/fa6";
 import { BsInfoCircle } from "react-icons/bs";
 
-
 const ProductCard = ({ product }) => {
   return (
     <div className="product-card">
@@ -14,6 +13,7 @@ const ProductCard = ({ product }) => {
         <h3 className="product-name">{product.name}</h3>
         <h2 className="product-price">$ {product.price}</h2>
         <p className="product-description">{product.description}</p>
+        <p className="product-date">Date: {product.date}</p>
         <div className="actions">
           <button className="product-cart">
             Add to Cart

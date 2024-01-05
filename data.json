@@ -49,7 +49,8 @@
           }
         ]
       },
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81cHpJNr07L._SL1500_.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81cHpJNr07L._SL1500_.jpg",
+      "date": "2023-05-15T10:30:00"
     },
     {
       "id": 2,
@@ -72,6 +73,7 @@
         "count": 0,
         "reviews": []
       },
+      "date": "2023-06-20T14:45:00",
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71gm8v4uPBL._SL1500_.jpg"
     },
     {
@@ -95,7 +97,8 @@
         "count": 0,
         "reviews": []
       },
-      "image": "https://example.com/oneplus-9-pro.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61H5BvUlNeS._SX679_.jpg",
+      "date": "2023-07-25T08:15:00"
     },
 
     {
@@ -109,7 +112,8 @@
       "camera": "Dual 12.2MP+16MP",
       "display": "6.0 inches OLED",
       "battery": "4080mAh",
-      "image": "https://example.com/google-pixel-5.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81-fNmQqlLL._SX679_.jpg",
+      "date": "2023-05-15T10:30:00"
     },
     {
       "id": 6,
@@ -132,7 +136,8 @@
         "count": 0,
         "reviews": []
       },
-      "image": "https://example.com/huawei-p40-pro.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51Sz2VczNpL._SX679_.jpg",
+      "date": "2023-06-20T14:45:00"
     },
     {
       "id": 7,
@@ -155,7 +160,8 @@
         "count": 0,
         "reviews": []
       },
-      "image": "https://example.com/sony-xperia-1-iii.jpg"
+      "image": "https://m.media-amazon.com/images/I/71YvGj855+L._AC_SX679_.jpg",
+      "date": "2023-07-25T08:15:00"
     },
     {
       "id": 8,
@@ -178,7 +184,8 @@
         "count": 0,
         "reviews": []
       },
-      "image": "https://example.com/lg-velvet.jpg"
+      "image": "https://m.media-amazon.com/images/I/61eWYz4G0yL._AC_SX679_.jpg",
+      "date": "2023-08-30T18:00:00"
     },
     {
       "id": 9,
@@ -201,7 +208,8 @@
         "count": 0,
         "reviews": []
       },
-      "image": "https://example.com/moto-g-power-2021.jpg"
+      "image": "https://m.media-amazon.com/images/I/61QKKdjHV0L._AC_SX679_.jpg",
+      "date": "2023-09-05T16:30:00"
     },
     {
       "id": 10,
@@ -224,7 +232,8 @@
         "count": 0,
         "reviews": []
       },
-      "image": "https://example.com/nokia-8-3-5g.jpg"
+      "image": "https://m.media-amazon.com/images/I/71D6aannQlL._AC_SX679_.jpg",
+      "date": "2023-10-10T12:00:00"
     },
     {
       "id": 11,
@@ -237,7 +246,8 @@
       "camera": "Triple 64MP+16MP+8MP",
       "display": "6.78 inches AMOLED",
       "battery": "6000mAh",
-      "image": "https://example.com/asus-rog-phone-6.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone6-01.jpg",
+      "date": "2023-11-15T09:45:00"
     },
     {
       "id": 12,
@@ -250,7 +260,8 @@
       "camera": "Dual 64MP+16MP",
       "display": "6.92 inches AMOLED",
       "battery": "5500mAh",
-      "image": "https://example.com/lenovo-legion-phone-duel-2.jpg"
+      "image": "https://m.media-amazon.com/images/I/61Wf-E+KPHL._AC_SX679_.jpghttps://m.media-amazon.com/images/I/51f6rBsgtnL._AC_SX679_.jpg",
+      "date": "2023-12-20T22:00:00"
     },
     {
       "id": 13,
@@ -263,7 +274,8 @@
       "camera": "Dual 16MP+12MP",
       "display": "5.5 inches IPS LCD",
       "battery": "4000mAh",
-      "image": "https://example.com/blackberry-key3.jpg"
+      "image": "https://lovmobile.com/media/2022/12/_3/650x650/blackberry-key-3_b18a7.jpg",
+      "date": "2024-01-25T11:30:00"
     },
     {
       "id": 14,
@@ -276,7 +288,8 @@
       "camera": "Quad 64MP+64MP+64MP+8MP",
       "display": "6.67 inches AMOLED",
       "battery": "4600mAh",
-      "image": "https://example.com/zte-axon-30-ultra.jpg"
+      "image": "https://m.media-amazon.com/images/I/51f6rBsgtnL._AC_SX679_.jpg",
+      "date": "2024-02-29T17:15:00"
     },
     {
       "id": 15,
@@ -289,7 +302,8 @@
       "camera": "Triple 64MP+8MP+2MP",
       "display": "6.62 inches Super AMOLED",
       "battery": "5000mAh",
-      "image": "https://example.com/realme-gt-neo-2.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51dU-AhexwL._SY741_.jpg",
+      "date": "2024-03-05T14:00:00"
     },
     {
       "id": 16,
@@ -302,7 +316,8 @@
       "camera": "Quad 108MP+8MP+2MP+2MP",
       "display": "6.57 inches AMOLED",
       "battery": "4300mAh",
-      "image": "https://example.com/honor-50.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-50-r2.jpg",
+      "date": "2024-04-10T20:45:00"
     },
     {
       "id": 17,
@@ -315,7 +330,8 @@
       "camera": "Triple 50MP+50MP+13MP",
       "display": "6.7 inches LTPO AMOLED",
       "battery": "5000mAh",
-      "image": "https://example.com/oppo-find-x4-pro.jpg"
+      "image": "https://www.gizmochina.com/wp-content/uploads/2021/11/resize-2021-11-25T165607.239-784x441-500x500.jpg",
+      "date": "2024-05-15T12:30:00"
     },
     {
       "id": 18,
@@ -328,7 +344,8 @@
       "camera": "Quad 50MP+48MP+12MP+8MP",
       "display": "6.78 inches AMOLED",
       "battery": "4500mAh",
-      "image": "https://example.com/vivo-x70-pro-plus.jpg"
+      "image": "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/u/z/i/x70-pro-v2105-vivo-original-imag7bq4eumqhgka.jpeg?q=70",
+      "date": "2024-06-20T16:00:00"
     },
     {
       "id": 19,
@@ -341,7 +358,8 @@
       "camera": "Triple 108MP+16MP+8MP",
       "display": "6.7 inches AMOLED",
       "battery": "4500mAh",
-      "image": "https://example.com/motorola-edge-20-pro.jpg"
+      "image": "https://rukminim2.flixcart.com/image/416/416/ku5ufm80/mobile/q/s/c/edge-20-pro-pany0009in-motorola-original-imag7csrdfzh6eqh.jpeg?q=70",
+      "date": "2024-07-25T14:15:00"
     },
     {
       "id": 20,
@@ -354,11 +372,12 @@
       "camera": "Penta 12MP+12MP+12MP+12MP+12MP",
       "display": "5.99 inches P-OLED",
       "battery": "3320mAh",
-      "image": "https://example.com/nokia-9-pureview.jpg"
+      "image": "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/y/v/6/9-128-c-ta-1087-ds-nokia-6-original-imafg98nken2dhmh.jpeg?q=70",
+      "date": "2024-08-30T10:30:00"
     },
     {
       "id": 21,
-      "name": "Sony Xperia 1 III",
+      "name": "Sony Xperia 1 II",
       "brand": "Sony",
       "description": "Flagship device with a 4K HDR OLED display.",
       "price": 1299.99,
@@ -367,7 +386,8 @@
       "camera": "Triple 12MP+12MP+12MP",
       "display": "6.5 inches 4K HDR OLED",
       "battery": "4500mAh",
-      "image": "https://example.com/sony-xperia-1-iii.jpg"
+      "image": "https://m.media-amazon.com/images/I/71xoD1b0KjL._AC_SX679_.jpg",
+      "date": "2024-09-05T18:45:00"
     },
     {
       "id": 22,
@@ -380,7 +400,8 @@
       "camera": "Triple 50MP+48MP+48MP",
       "display": "6.81 inches AMOLED",
       "battery": "5000mAh",
-      "image": "https://example.com/xiaomi-mi-11-ultra.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71giK9ZfWeS._SY741_.jpg",
+      "date": "2024-10-10T15:00:00"
     },
     {
       "id": 23,
@@ -393,7 +414,8 @@
       "camera": "Triple 50MP+12MP+48MP",
       "display": "6.7 inches LTPO OLED",
       "battery": "5000mAh",
-      "image": "https://example.com/google-pixel-6-pro.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71FpXTBHDnL._SX679_.jpg",
+      "date": "2024-11-15T11:15:00"
     },
     {
       "id": 24,
@@ -406,7 +428,8 @@
       "camera": "Quad 50MP+40MP+12MP+13MP",
       "display": "6.6 inches LTPO OLED",
       "battery": "4360mAh",
-      "image": "https://example.com/huawei-p50-pro.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-50-pro-r2.jpg",
+      "date": "2024-12-20T13:30:00"
     },
     {
       "id": 25,
@@ -419,7 +442,8 @@
       "camera": "Triple 64MP+12MP+8MP",
       "display": "6.8 inches P-OLED",
       "battery": "4300mAh",
-      "image": "https://example.com/lg-velvet-2-pro.jpg"
+      "image": "https://static.toiimg.com/thumb/resizemode-4,msid-83006478,width-250,imgv-1/83006478.jpg",
+      "date": "2025-01-25T08:00:00"
     },
     {
       "id": 26,
@@ -432,7 +456,8 @@
       "camera": "Triple 64MP+8MP+5MP",
       "display": "6.67 inches AMOLED",
       "battery": "4500mAh",
-      "image": "https://example.com/black-shark-4-pro.jpg"
+      "image": "https://m.media-amazon.com/images/I/61LuwMOvAGL._AC_SX522_.jpg",
+      "date": "2025-02-29T19:45:00"
     },
     {
       "id": 27,
@@ -445,7 +470,8 @@
       "camera": "Quad 108MP+8MP+5MP+2MP",
       "display": "6.67 inches IPS LCD",
       "battery": "5160mAh",
-      "image": "https://example.com/redmi-note-11-pro.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71u-1krs2XL._SX679_.jpg",
+      "date": "2025-03-05T09:30:00"
     },
     {
       "id": 28,
@@ -458,7 +484,8 @@
       "camera": "Triple 64MP+8MP+2MP",
       "display": "6.8 inches AMOLED",
       "battery": "5000mAh",
-      "image": "https://example.com/nubia-red-magic-7.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/pics/zte/zte-nubia-red-magic-7-1.jpg",
+      "date": "2025-04-10T14:15:00"
     },
     {
       "id": 29,
@@ -471,7 +498,8 @@
       "camera": "Triple 64MP+8MP+2MP",
       "display": "6.67 inches Super AMOLED",
       "battery": "4500mAh",
-      "image": "https://example.com/poco-f4-pro.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/41E6NOuNt3L.jpg",
+      "date": "2025-05-15T20:00:00"
     },
     {
       "id": 30,
@@ -484,7 +512,8 @@
       "camera": "Triple 108MP+8MP+5MP",
       "display": "6.7 inches Super AMOLED",
       "battery": "4700mAh",
-      "image": "https://example.com/infinix-zero-x-pro.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/pics/infinix/infinix-zero-x-pro-.jpg",
+      "date": "2025-06-20T11:45:00"
     },
     {
       "id": 31,
@@ -497,7 +526,8 @@
       "camera": "Dual 50MP+2MP",
       "display": "6.5 inches IPS LCD",
       "battery": "6000mAh",
-      "image": "https://example.com/realme-narzo-50a.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81Ke5qtC6oL._SX679_.jpg",
+      "date": "2025-07-25T17:30:00"
     },
     {
       "id": 32,
@@ -510,7 +540,8 @@
       "camera": "Triple 108MP+8MP+2MP",
       "display": "6.9 inches OLED",
       "battery": "5000mAh",
-      "image": "https://example.com/motorola-edge-30.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/713sb7VUFQL._SX569_.jpg",
+      "date": "2025-08-30T10:00:00"
     },
     {
       "id": 33,
@@ -523,7 +554,8 @@
       "camera": "Triple 64MP+8MP+2MP",
       "display": "6.44 inches AMOLED",
       "battery": "4100mAh",
-      "image": "https://example.com/vivo-y73s.jpg"
+      "image": "https://s3bo.cashify.in/gpro/uploads/2021/03/27112258/vivo-y73s-front.png?p=gp4sq&s=gp",
+      "date": "2025-09-05T15:45:00"
     },
     {
       "id": 34,
@@ -536,7 +568,8 @@
       "camera": "Quad 50MP+16MP+13MP+2MP",
       "display": "6.5 inches AMOLED",
       "battery": "4500mAh",
-      "image": "https://example.com/oppo-reno-7-pro.jpg"
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/31Tah4TynYL.jpg",
+      "date": "2025-10-10T21:30:00"
     },
     {
       "id": 35,
@@ -549,7 +582,8 @@
       "camera": "Triple 64MP+13MP+5MP",
       "display": "6.8 inches AMOLED",
       "battery": "6000mAh",
-      "image": "https://example.com/asus-rog-phone-6.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone6-01.jpg",
+      "date": "2025-11-15T12:15:00"
     },
     {
       "id": 36,
@@ -562,7 +596,8 @@
       "camera": "Dual 64MP+16MP",
       "display": "6.92 inches AMOLED",
       "battery": "5500mAh",
-      "image": "https://example.com/lenovo-legion-phone-duel-3.jpg"
+      "image": "https://images.hindustantimes.com/tech/htmobile4/P37132/heroimage/149300-v1-lenovo-legion-duel-3-5g-mobile-phone-large-1.jpg?impolicy=new-ht-20210112&width=500&height=500",
+      "date": "2025-12-20T14:30:00"
     },
     {
       "id": 37,
@@ -575,7 +610,8 @@
       "camera": "Triple 48MP+5MP+2MP",
       "display": "6.82 inches IPS LCD",
       "battery": "4850mAh",
-      "image": "https://example.com/nokia-g50.jpg"
+      "image": "https://m.media-amazon.com/images/I/51P9CqFy0IL._AC_SX466_.jpg",
+      "date": "2026-01-25T09:15:00"
     },
     {
       "id": 38,
@@ -588,7 +624,8 @@
       "camera": "Quad 64MP+64MP+64MP+8MP",
       "display": "6.67 inches AMOLED",
       "battery": "4600mAh",
-      "image": "https://example.com/zte-axon-30-ultra.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/pics/zte/zte-axon-30-ultra-1.jpg",
+      "date": "2026-02-29T19:30:00"
     },
     {
       "id": 39,
@@ -601,7 +638,8 @@
       "camera": "Dual 12MP+8MP",
       "display": "5.7 inches FLIR thermal display",
       "battery": "4000mAh",
-      "image": "https://example.com/cat-s62-pro.jpg"
+      "image": "https://rukminim2.flixcart.com/image/416/416/kg9qbgw0/mobile/f/f/j/cat-s62-pro-s62-pro-original-imafwjq4zngsqsfb.jpeg?q=70",
+      "date": "2026-03-05T14:45:00"
     }
   ]
 }
