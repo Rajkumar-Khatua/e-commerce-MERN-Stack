@@ -147,31 +147,20 @@ const ProductListingPage = () => {
     });
   };
 
-  // Function to get unique and sorted rating values
-  const getSortedRatingValues = () => {
-    const allRatings = data.mobiles
-      .filter((product) => product.ratings?.average !== undefined)
-      .flatMap((product) => product.ratings.average || []);
-
-    const uniqueRatings = Array.from(new Set(allRatings));
-    return uniqueRatings.sort((a, b) => b - a);
-  };
-
-  // Handle change in rating filter
-  const handleRatingChange = (ratingValue) => {
-    const updatedRatingFilters = selectedFilters.rating.includes(ratingValue)
-      ? selectedFilters.rating.filter((rating) => rating !== ratingValue)
-      : [...selectedFilters.rating, ratingValue];
-
-    setSelectedFilters({
-      ...selectedFilters,
-      rating: updatedRatingFilters,
-    });
-  };
   return (
     <div className="ProductListingPage">
       {/* Mobile filters */}
-      {showFilters && <MobileFilters />}
+      {showFilters && (
+        <MobileFilters
+          handleSortChange={handleSortChange}
+          handleClearAllFilters={handleClearAllFilters}
+          handleBrandChange={handleBrandChange}
+          handleColorChange={handleColorChange}
+          selectedFilters={selectedFilters}
+          setFilteredProducts={setFilteredProducts}
+          products={data.mobiles}
+        />
+      )}
 
       <div className="left">
         <div className="filters">
@@ -258,24 +247,40 @@ const ProductListingPage = () => {
             </div>
           </div>
 
-          {/* Filter by rating */}
+          {/* filter by rating */}
           <div className="filter-by-rating">
             <span className="filter-by-rating-title">Filter by rating</span>
             <div className="filter-by-rating-list">
-              {getSortedRatingValues().map((ratingValue) => (
-                <div className="filter-by-rating-item" key={ratingValue}>
-                  <input
-                    type="checkbox"
-                    name={`rating-${ratingValue}`}
-                    id={`rating-${ratingValue}`}
-                    onChange={() => handleRatingChange(ratingValue)}
-                    checked={selectedFilters.rating.includes(ratingValue)}
-                  />
-                  {Array.from({ length: ratingValue }).map((_, index) => (
-                    <GiCursedStar key={index} className="rating-icon" />
-                  ))}
-                </div>
-              ))}
+              <div className="filter-by-rating-item">
+                <input type="checkbox" name="" id="" />
+                <GiCursedStar className="rating-icon" />
+              </div>
+              <div className="filter-by-rating-item">
+                <input type="checkbox" name="" id="" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+              </div>
+              <div className="filter-by-rating-item">
+                <input type="checkbox" name="" id="" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+              </div>
+              <div className="filter-by-rating-item">
+                <input type="checkbox" name="" id="" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+              </div>
+              <div className="filter-by-rating-item">
+                <input type="checkbox" name="" id="" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+                <GiCursedStar className="rating-icon" />
+              </div>
             </div>
           </div>
         </div>
