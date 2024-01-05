@@ -105,15 +105,6 @@ const ProductListingPage = () => {
     });
   };
 
-  const isDateInRange = (productDate, filter) => {
-    const productDateTime = new Date(productDate).getTime();
-    const filterDateTime = new Date(filter).getTime();
-
-    // You may need to adjust this logic based on your requirements
-    // This example considers the last 24 hours
-    return productDateTime > filterDateTime - 24 * 60 * 60 * 1000;
-  };
-
   const getSortedBrandNames = (products) => {
     const brandNames = Array.from(
       new Set(products.map((product) => product.brand))
@@ -156,6 +147,7 @@ const ProductListingPage = () => {
           handleClearAllFilters={handleClearAllFilters}
           handleBrandChange={handleBrandChange}
           handleColorChange={handleColorChange}
+          handlePriceChange={handlePriceChange}
           selectedFilters={selectedFilters}
           setFilteredProducts={setFilteredProducts}
           products={data.mobiles}

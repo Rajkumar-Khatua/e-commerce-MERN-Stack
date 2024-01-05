@@ -31,24 +31,25 @@ const MobileFilters = ({
   handleBrandChange,
   handleColorChange,
   selectedFilters,
-  setFilteredProducts, // Add setFilteredProducts parameter
+  setFilteredProducts,
+  handlePriceChange,
   products,
 }) => {
   const [showFilters, setShowFilters] = useState(false);
   const brandOptions = getSortedBrandNames(products);
   const colorOptions = getSortedColorNames(products);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setShowFilters(window.innerWidth < 600);
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setShowFilters(window.innerWidth < 600);
+  //   };
 
-    window.addEventListener("resize", handleResize);
+  //   window.addEventListener("resize", handleResize);
 
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //   };
+  // }, []);
 
   const toggleFilters = () => {
     setShowFilters(!showFilters);
@@ -114,6 +115,23 @@ const MobileFilters = ({
             </span>
           </div>
 
+          {/* filter price by range */}
+          <div className="filter-by-price">
+            <span className="filter-by-price-title">Filter by price range</span>
+            <div className="filter-by-price-range">
+              <input
+                type="range"
+                name="price"
+                id="price"
+                className="price-range-input"
+                min={0}
+                max={2000}
+                value={selectedFilters.price}
+                onChange={handlePriceChange}
+              />
+              <span>${selectedFilters.price}</span>
+            </div>
+          </div>
           {/* Sort by date */}
           <div className="filter-by-date">
             <span className="filter-by-date-title">Sort by date</span>
