@@ -135,78 +135,28 @@
       }
     }
 
-    @keyframes pulse {
-      from {
-        transform: scale(0.5);
-        opacity: 1;
-      }
-
-      to {
-        transform: scale(1.5);
-        opacity: 0;
-      }
-    }
-
-    .menu-link.profile-link {
-      position: relative;
-
-      .indicator {
-        position: absolute;
-        top: -5px;
-        right: -5px;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        animation: pulse 1.5s infinite;
-        transition: box-shadow 0.3s ease-in-out;
-      }
-
-      .green {
-        background-color: #07ff6f;
-        box-shadow: 0 0 5px #07ff6f;
-      }
-
-      .grey {
-        background-color: #808080;
-        box-shadow: 0 0 5px #808080;
-      }
-    }
-  }
-
-  .profile-img {
-    img {
-      height: 35px;
-      width: 35px;
-      border-radius: 50%;
-      object-fit: cover;
-      transition: transform 0.3s ease-in-out;
-
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
-  }
-  .authButtons {
-    display: flex;
-    justify-content: space-between;
-
-    .authButton_mobile {
+    .authButtons {
       display: flex;
-      align-self: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 8px 12px;
-      margin-right: 10px;
-      text-decoration: none;
-      color: #fff;
-      background-color: #f26a2e;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease-in-out;
+      justify-content: space-between;
 
-      &:hover {
-        background-color: #d9534f;
+      .authButton {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 8px 12px;
+        margin-right: 10px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #f26a2e;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+
+        &:hover {
+          background-color: #d9534f;
+        }
       }
     }
   }

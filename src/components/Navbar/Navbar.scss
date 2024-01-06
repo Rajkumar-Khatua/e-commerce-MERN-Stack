@@ -42,7 +42,6 @@
       &:hover {
         color: #f26a2e;
       }
-      
 
       cursor: pointer;
       @media screen and (max-width: 1024px) {
@@ -155,49 +154,15 @@
     .searchContainer {
       display: flex;
       align-items: center;
-      position: relative;
       margin-right: 10px;
       background: transparent;
-
-      &:hover {
-        .searchInput {
-          width: 180px;
-          padding: 8px;
-        }
-      }
+      margin-left: 10px;
 
       .searchIcon {
         color: #f26a2e;
         font-size: 20px;
-        position: absolute;
         left: 10px;
         z-index: 1;
-      }
-
-      .searchInput {
-        border: none;
-        outline: none;
-        width: 0;
-        background: transparent;
-        padding: 0;
-        margin-left: -5px;
-        transition: width 0.3s ease-in-out, padding 0.3s ease-in-out;
-        font-size: 14px;
-        padding: 10px 15px;
-        &::placeholder {
-          font-size: 14px;
-        }
-        &:focus {
-          width: 180px;
-          padding: 8px;
-          backdrop-filter: blur(16px) saturate(180%);
-          -webkit-backdrop-filter: blur(16px) saturate(180%);
-          background-color: rgba(235, 235, 235, 0.945);
-          border-radius: 12px;
-          border: 1px solid rgba(255, 255, 255, 0.125);
-          z-index: 1;
-          border: 1px #f26a2e;
-        }
       }
     }
 

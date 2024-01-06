@@ -8,19 +8,8 @@ import { PiShoppingCartThin } from "react-icons/pi";
 import { CiLogin } from "react-icons/ci";
 import "./Navbar.scss";
 import { CartProvider, useCart } from "../Cart/Cart"; // Import useCart
+import useAuth from "../../../utils/useAuth";
 const Navbar = () => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [demoUser, setDemoUser] = useState({
-    username: "DemoUser",
-    profileImage:
-      "https://images.pexels.com/photos/16756656/pexels-photo-16756656/free-photo-of-black-and-white-photo-of-a-swan-on-a-lake.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-  });
-
-  useEffect(() => {
-    // For demonstration purposes, let's assume the user is authenticated by default.
-    setIsAuthenticated(false);
-  }, []);
-
   const handleScroll = () => {
     const navbar = document.querySelector(".navbar");
 
@@ -45,7 +34,10 @@ const Navbar = () => {
   }, []);
 
   const { cart } = useCart(); // Destructure cart from the useCart hook
-
+  const { isAuthenticated, login, logout } = useAuth(); // Use the useAuth hook
+  const handleLogout = () => {
+    logout();
+  };
   return (
     <nav className={`navbar ${isAuthenticated ? "authenticated" : ""}`}>
       <div className="leftNavBar">
@@ -80,34 +72,23 @@ const Navbar = () => {
             <span className="cartCount">{cart.length}</span>
           </Link>
         </div>
-        <Link to="/search">
-          <div className="searchContainer">
+        <div className="searchContainer">
+          <Link to="/search">
             <CiSearch className="searchIcon" />
-            <input
-              type="text"
-              placeholder="Titles, People, Genres"
-              className="searchInput"
-            />
-          </div>
-        </Link>
-        {isAuthenticated ? (
-          <div className="profileContainer">
-            <div className="profileImgContainer">
-              <img
-                src={demoUser.profileImage}
-                alt="Profile"
-                className="profileImg"
-              />
-            </div>
-          </div>
-        ) : (
-          <div className="authButtons">
-            <Link to="/login" className="authButton">
+          </Link>
+        </div>
+        <div className="authButtons">
+          {isAuthenticated ? (
+            <button onClick={handleLogout} className="authButton">
+              Logout
+            </button>
+          ) : (
+            <button onClick={login} className="authButton">
               Sign In
               <CiLogin fontSize={20} />
-            </Link>
-          </div>
-        )}
+            </button>
+          )}
+        </div>
       </div>
     </nav>
   );

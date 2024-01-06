@@ -1,15 +1,17 @@
 // Login.jsx
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./login.scss";
 
-const Login = () => {
+const Login = ({ setAuthenticatedUser }) => {
   const [formData, setFormData] = useState({
     username: "",
     password: "",
     showPassword: false,
   });
+
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -28,7 +30,11 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+    // Perform login logic here, for now, let's assume it's successful
+    const fakeAuthenticatedUser = { username: formData.username };
+    setAuthenticatedUser(fakeAuthenticatedUser);
+    // Redirect to the home page or any other desired page after login
+    navigate("/");
   };
 
   return (
@@ -46,6 +52,8 @@ const Login = () => {
           onChange={handleChange}
           placeholder="Enter your username"
           className="login-input"
+          required
+
         />
 
         <label htmlFor="password" className="login-label">
@@ -60,6 +68,8 @@ const Login = () => {
             onChange={handleChange}
             placeholder="Enter your password"
             className="login-input"
+            required
+
           />
           <button
             type="button"

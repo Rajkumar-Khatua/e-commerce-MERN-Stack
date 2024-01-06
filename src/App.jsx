@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import {
   createBrowserRouter,
@@ -24,6 +24,7 @@ import ThankYouPage from "./pages/ThankYou/ThankYou";
 
 function App() {
   const queryClient = new QueryClient();
+  const [authenticatedUser, setAuthenticatedUser] = useState(null);
 
   const Layout = () => {
     const location = useLocation();
@@ -32,7 +33,11 @@ function App() {
       <div className="app">
         <QueryClientProvider client={queryClient}>
           <CartProvider>
-            {window.innerWidth <= 824 ? <MobileMenu /> : <Navbar />}
+            {window.innerWidth <= 824 ? (
+              <MobileMenu authenticatedUser={authenticatedUser} />
+            ) : (
+              <Navbar authenticatedUser={authenticatedUser} />
+            )}
             <Outlet />
             <Footer />
           </CartProvider>
@@ -76,11 +81,11 @@ function App() {
         },
         {
           path: "/login",
-          element: <Login />,
+          element: <Login setAuthenticatedUser={setAuthenticatedUser} />,
         },
         {
           path: "/register",
-          element: <Register />,
+          element: <Register setAuthenticatedUser={setAuthenticatedUser} />,
         },
         {
           path: "*",

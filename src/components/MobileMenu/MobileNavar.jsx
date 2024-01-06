@@ -2,22 +2,17 @@ import React, { useEffect, useState } from "react";
 import { RiMenu2Line } from "react-icons/ri";
 import { RxCross1 } from "react-icons/rx";
 import { Link } from "react-router-dom";
-import { CiSearch } from "react-icons/ci";
+import { CiLogin, CiSearch } from "react-icons/ci";
 import { AiOutlineLogin } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { PiShoppingCartThin } from "react-icons/pi";
 import { PiHeartLight } from "react-icons/pi";
 import "./MobileNavbar.scss";
 import { CartProvider, useCart } from "../Cart/Cart"; // Import useCart
+import useAuth from "../../../utils/useAuth";
 
 const MobileMenu = () => {
   const [showMenuLinks, setShowMenuLinks] = useState(false);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-
-  useEffect(() => {
-    // For demonstration purposes, let's assume the user is authenticated by default.
-    setIsAuthenticated(true);
-  }, []);
 
   const handleMenuIconClick = () => {
     setShowMenuLinks(!showMenuLinks);
@@ -29,7 +24,10 @@ const MobileMenu = () => {
   };
 
   const { cart } = useCart(); // Destructure cart from the useCart hook
-
+  const { isAuthenticated, login, logout } = useAuth(); // Use the useAuth hook
+  const handleLogout = () => {
+    logout();
+  };
   return (
     <nav className={`mobile-menu ${isAuthenticated ? "authenticated" : ""}`}>
       <div className="menu-icon" onClick={handleMenuIconClick}>
@@ -37,7 +35,7 @@ const MobileMenu = () => {
       </div>
       <div className={`menu-links ${showMenuLinks ? "show" : ""}`}>
         <Link
-          to="/home"
+          to="/"
           className="menu-link"
           onClick={() => {
             handleLinkClick();
@@ -55,7 +53,7 @@ const MobileMenu = () => {
           Products
         </Link>
         <Link
-          to="/latest-products"
+          to="/products"
           className="menu-link"
           onClick={() => {
             handleLinkClick();
@@ -81,29 +79,6 @@ const MobileMenu = () => {
         >
           Contact Us
         </Link>
-        {isAuthenticated ? (
-          <Link
-            to="/profile"
-            className="menu-link"
-            onClick={() => {
-              handleLinkClick();
-            }}
-          >
-            <AiOutlineUser fontSize={20} />
-            Profile
-          </Link>
-        ) : (
-          <Link
-            to="/signin"
-            className="menu-link"
-            onClick={() => {
-              handleLinkClick();
-            }}
-          >
-            <AiOutlineLogin fontSize={20} />
-            Sign Out
-          </Link>
-        )}
       </div>
 
       <div className="logo-container">
@@ -135,35 +110,17 @@ const MobileMenu = () => {
           </Link>
         </div>
 
-        {isAuthenticated ? (
-          <Link
-            to="/signout"
-            className="menu-link profile-link"
-            onClick={() => {
-              handleLinkClick();
-            }}
-          >
-            <div className="profile-img">
-              <img
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Profile"
-                className="dummy-profile-pic"
-              />
-            </div>
-            <div className="indicator green"></div>
-          </Link>
-        ) : (
-          <Link
-            to="/signin"
-            className="menu-link"
-            onClick={() => {
-              handleLinkClick();
-            }}
-          >
-            <AiOutlineLogin fontSize={20} />
-            <div className="indicator grey"></div>
-          </Link>
-        )}
+        <div className="authButtons">
+          {isAuthenticated ? (
+            <button onClick={handleLogout} className="authButton">
+              Logout
+            </button>
+          ) : (
+            <button onClick={login} className="authButton">
+              Sign In
+            </button>
+          )}
+        </div>
       </div>
     </nav>
   );

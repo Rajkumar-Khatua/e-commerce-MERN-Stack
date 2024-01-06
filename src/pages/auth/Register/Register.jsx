@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import "./Register.scss";
+import { useNavigate } from "react-router-dom";
+
 import { Link } from "react-router-dom";
 
-const Register = () => {
+const Register = ({ setAuthenticatedUser }) => {
   const [formData, setFormData] = useState({
     username: "",
     email: "",
     password: "",
     showPassword: false,
   });
+
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -28,8 +32,11 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can perform registration logic here using formData
-    console.log("Form submitted:", formData);
+    // Perform login logic here, for now, let's assume it's successful
+    const fakeAuthenticatedUser = { username: formData.username };
+    setAuthenticatedUser(fakeAuthenticatedUser);
+    // Redirect to the home page or any other desired page after login
+    navigate("/");
   };
 
   return (
@@ -47,6 +54,7 @@ const Register = () => {
           onChange={handleChange}
           placeholder="Enter your username"
           className="register-input"
+          required
         />
 
         <label htmlFor="email" className="register-label">
@@ -60,6 +68,7 @@ const Register = () => {
           onChange={handleChange}
           placeholder="Enter your email"
           className="register-input"
+          required
         />
 
         <label htmlFor="password" className="register-label">
@@ -74,6 +83,7 @@ const Register = () => {
             onChange={handleChange}
             placeholder="Enter your password"
             className="register-input"
+            required
           />
           <button
             type="button"
