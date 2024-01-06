@@ -63,10 +63,10 @@ const Home = () => {
                   <span className="offer">{slide.specialOffer}</span>
                 </div>
                 <div className="buttons">
-                  <Link to="/shop" className="cta-button">
+                  <Link to="/products" className="cta-button">
                     Shop Now
                   </Link>
-                  <Link to="/details" className="secondary-button">
+                  <Link to="/products" className="secondary-button">
                     Learn More
                   </Link>
                 </div>

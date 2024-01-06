@@ -16,10 +16,12 @@ import { LiaWeightSolid } from "react-icons/lia";
 import { GiFeather } from "react-icons/gi";
 import { MdOutlineHomeWork } from "react-icons/md";
 import { CiCalendarDate } from "react-icons/ci";
+import { useCart } from "../../components/Cart/Cart";
 
 const ProductDetailsPage = () => {
   const { id } = useParams();
   const product = data.mobiles.find((item) => item.id === parseInt(id));
+  const { addToCart } = useCart();
 
   if (!product) {
     return <p>Product not found</p>;
@@ -46,6 +48,11 @@ const ProductDetailsPage = () => {
     image,
     date,
   } = product;
+
+  const handleAddToCart = () => {
+    addToCart(product);
+    alert(`${name} added to cart!`);
+  };
 
   return (
     <div className="product-details-container">
@@ -75,13 +82,30 @@ const ProductDetailsPage = () => {
             {renderDetail("Dimensions", dimensions, <TbRulerMeasure />)}
             {renderDetail("Weight", weight, <LiaWeightSolid />)}
             {renderDetail("Features", features.join(", "), <GiFeather />)}
-            {renderDetail("Manufacturer", manufacturer.name, <MdOutlineHomeWork />)}
-            {renderDetail("Country", manufacturer.country, <MdOutlineHomeWork />)}
-            {renderDetail("Website", manufacturer.website, <MdOutlineHomeWork />)}
+            {renderDetail(
+              "Manufacturer",
+              manufacturer.name,
+              <MdOutlineHomeWork />
+            )}
+            {renderDetail(
+              "Country",
+              manufacturer.country,
+              <MdOutlineHomeWork />
+            )}
+            {renderDetail(
+              "Website",
+              manufacturer.website,
+              <MdOutlineHomeWork />
+            )}
             {renderDetail("Date", date, <CiCalendarDate />)}
           </div>
           <div className="add-to-cart-single-details">
-            <button className="product-btn-single-details">Add to Cart</button>
+            <button
+              className="product-btn-single-details"
+              onClick={handleAddToCart}
+            >
+              Add to Cart
+            </button>
             <div className="buy-now-single-details">
               <button className="product-btn-single-details">Buy Now</button>
             </div>
@@ -109,8 +133,6 @@ const ProductDetailsPage = () => {
                 : null}
             </ul>
           </div>
-
-         
         </div>
       </div>
     </div>
