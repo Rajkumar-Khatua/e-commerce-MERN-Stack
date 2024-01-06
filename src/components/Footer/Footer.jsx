@@ -9,7 +9,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="left">
-        <h4 className="logo">My Recipe</h4>
+        <Link to="/" className="logo">
+          Ss Store
+        </Link>
         <div className="social-icons">
           <FaFacebook className="social__icon__FB" />
           <FaXTwitter className="social__icon__TW" />
@@ -24,11 +26,8 @@ const Footer = () => {
           <Link className="footer__link" to="/">
             Home
           </Link>
-          <Link className="footer__link" to="/recipes">
-            Recipes
-          </Link>
-          <Link className="footer__link" to="/add-new">
-            New and Popular
+          <Link className="footer__link" to="/products">
+            Products
           </Link>
           <Link className="footer__link" to="/about-us">
             About Us
@@ -54,7 +53,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="bottom">
-        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <p>&copy; 2024 Ss Store. All rights reserved.</p>
+        <span>Made With - 🌹</span>
       </div>
     </footer>
   );

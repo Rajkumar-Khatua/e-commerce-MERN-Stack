@@ -1,4 +1,3 @@
-// App.jsx
 import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import {
@@ -18,6 +17,10 @@ import Register from "./pages/auth/Register/Register";
 import SearchPage from "./pages/Search/SearchPage";
 import ProductListingPage from "./pages/ProductListingPage/ProductListingPage";
 import ProductDetailsPage from "./pages/SingleProduct/ProductDetailsPage";
+import { CartProvider } from "./components/Cart/Cart";
+import CartPage from "./pages/CartPage/CartPage";
+import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
+import ThankYouPage from "./pages/ThankYou/ThankYou";
 
 function App() {
   const queryClient = new QueryClient();
@@ -28,9 +31,11 @@ function App() {
     return (
       <div className="app">
         <QueryClientProvider client={queryClient}>
-          {window.innerWidth <= 824 ? <MobileMenu /> : <Navbar />}
-          <Outlet />
-          <Footer />
+          <CartProvider>
+            {window.innerWidth <= 824 ? <MobileMenu /> : <Navbar />}
+            <Outlet />
+            <Footer />
+          </CartProvider>
         </QueryClientProvider>
       </div>
     );
@@ -56,6 +61,18 @@ function App() {
         {
           path: "/search",
           element: <SearchPage />,
+        },
+        {
+          path: "/cart",
+          element: <CartPage />,
+        },
+        {
+          path: "/checkout",
+          element: <CheckoutPage />,
+        },
+        {
+          path: "/thank-you",
+          element: <ThankYouPage />,
         },
         {
           path: "/login",

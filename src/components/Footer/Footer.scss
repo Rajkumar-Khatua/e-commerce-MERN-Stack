@@ -21,9 +21,13 @@
       align-items: center;
   
       .logo {
-        font-size: 1.2rem;
+        font-size: 2rem;
         font-weight: bold;
         margin-bottom: 10px;
+        align-self: center;
+        color: #f26a2e;
+        text-decoration: none;
+
       }
   
       .social-icons {
@@ -189,10 +193,15 @@
       width: 100%;
       text-align: center;
       margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 1rem;
+
   
-      p {
+      p,span {
         margin: 0;
-        font-size: 0.9rem;
+        font-size:1rem;
       }
     }
   }

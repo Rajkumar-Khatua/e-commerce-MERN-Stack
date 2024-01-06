@@ -7,6 +7,7 @@ import { CiSearch } from "react-icons/ci";
 import { PiShoppingCartThin } from "react-icons/pi";
 import { CiLogin } from "react-icons/ci";
 import "./Navbar.scss";
+import { CartProvider, useCart } from "../Cart/Cart"; // Import useCart
 const Navbar = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [demoUser, setDemoUser] = useState({
@@ -43,6 +44,8 @@ const Navbar = () => {
     };
   }, []);
 
+  const { cart } = useCart(); // Destructure cart from the useCart hook
+
   return (
     <nav className={`navbar ${isAuthenticated ? "authenticated" : ""}`}>
       <div className="leftNavBar">
@@ -59,12 +62,6 @@ const Navbar = () => {
           <Link to="/products" className="navLink">
             Products
           </Link>
-          <Link to="/latest-products" className="navLink">
-            Latest Products
-          </Link>
-          <Link to="/wishlist" className="navLink">
-            Wish List
-          </Link>
           <Link to="/about-us" className="navLink">
             About Us
           </Link>
@@ -80,7 +77,7 @@ const Navbar = () => {
         <div className="cartContainer">
           <Link to="/cart" className="cartLink">
             <PiShoppingCartThin className="cartIcon" />
-            <span className="cartCount">0</span>
+            <span className="cartCount">{cart.length}</span>
           </Link>
         </div>
         <Link to="/search">
@@ -105,7 +102,7 @@ const Navbar = () => {
           </div>
         ) : (
           <div className="authButtons">
-            <Link to="/signin" className="authButton">
+            <Link to="/login" className="authButton">
               Sign In
               <CiLogin fontSize={20} />
             </Link>

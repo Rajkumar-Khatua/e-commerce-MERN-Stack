@@ -1,0 +1,148 @@
+// CheckoutPage.scss
+
+.checkout-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 70px;
+
+  @media screen and (max-width: 800px) {
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 500px) {
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-top: 10px;
+  }
+
+  .checkout-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .loading-indicator {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #e44d26;
+    position: relative;
+
+    &:before {
+      content: "";
+      border: 4px solid #ccc;
+      border-top: 4px solid #e44d26;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -12px;
+      margin-left: -12px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+
+  .empty-cart-message {
+    font-size: 16px;
+    color: #e44d26;
+  }
+
+  .checkout-items {
+    list-style: none;
+    padding: 0;
+
+    .checkout-item {
+      border-bottom: 1px solid #ddd;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .checkout-item-details {
+        flex-grow: 1;
+
+        .checkout-item-name {
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+
+        .checkout-item-price {
+          color: #e44d26;
+          font-weight: bold;
+        }
+      }
+
+      .remove-from-cart {
+        background-color: #e44d26;
+        color: #fff;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #333;
+        }
+      }
+    }
+  }
+
+  .buyer-info {
+    margin-top: 20px;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    // Styling for the disabled option
+    option[disabled] {
+      color: #888;
+    }
+  }
+
+  .total-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .buy-now {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+
+    &:hover {
+      background-color: #333;
+    }
+  }
+}

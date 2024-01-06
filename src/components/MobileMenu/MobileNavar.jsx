@@ -8,6 +8,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { PiShoppingCartThin } from "react-icons/pi";
 import { PiHeartLight } from "react-icons/pi";
 import "./MobileNavbar.scss";
+import { CartProvider, useCart } from "../Cart/Cart"; // Import useCart
 
 const MobileMenu = () => {
   const [showMenuLinks, setShowMenuLinks] = useState(false);
@@ -26,6 +27,8 @@ const MobileMenu = () => {
     // Additional logic when a menu link is clicked
     setShowMenuLinks(false); // Close the menu after clicking a link
   };
+
+  const { cart } = useCart(); // Destructure cart from the useCart hook
 
   return (
     <nav className={`mobile-menu ${isAuthenticated ? "authenticated" : ""}`}>
@@ -109,16 +112,16 @@ const MobileMenu = () => {
         </Link>
       </div>
       <div className="profile-and-cart-options">
-          <Link
-            to="/search"
-            className="menu-link search-link"
-            onClick={() => {
-              handleLinkClick();
-            }}
-          >
-            <CiSearch fontSize={22} className="search-icon" />
-          </Link>
-       
+        <Link
+          to="/search"
+          className="menu-link search-link"
+          onClick={() => {
+            handleLinkClick();
+          }}
+        >
+          <CiSearch fontSize={22} className="search-icon" />
+        </Link>
+
         <div className="cart-container">
           <Link
             to="/cart"
@@ -128,19 +131,7 @@ const MobileMenu = () => {
             }}
           >
             <PiShoppingCartThin fontSize={20} className="cart-icon" />
-            <span className="cartCount">0</span>
-          </Link>
-        </div>
-        <div className="wish-list-container">
-          <Link
-            to="/wishlist"
-            className="menu-link wish-list-link"
-            onClick={() => {
-              handleLinkClick();
-            }}
-          >
-            <PiHeartLight fontSize={20} className="wish-list-icon" />
-            <span className="wishCount">0</span>
+            <span className="cartCount">{cart.length}</span>
           </Link>
         </div>
 
