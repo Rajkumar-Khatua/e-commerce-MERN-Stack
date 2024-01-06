@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams,useNavigate } from "react-router-dom";
 import data from "../../../data.json";
 import {
   FaPalette,
@@ -22,6 +22,7 @@ const ProductDetailsPage = () => {
   const { id } = useParams();
   const product = data.mobiles.find((item) => item.id === parseInt(id));
   const { addToCart } = useCart();
+  const navigate = useNavigate();
 
   if (!product) {
     return <p>Product not found</p>;
@@ -52,7 +53,15 @@ const ProductDetailsPage = () => {
   const handleAddToCart = () => {
     addToCart(product);
     alert(`${name} added to cart!`);
+  };  
+
+  const handleBuyNow = () => {
+    addToCart(product);
+    // Navigate to the checkout page
+    navigate("/checkout");
   };
+
+
 
   return (
     <div className="product-details-container">
@@ -107,7 +116,12 @@ const ProductDetailsPage = () => {
               Add to Cart
             </button>
             <div className="buy-now-single-details">
-              <button className="product-btn-single-details">Buy Now</button>
+              <button
+                className="product-btn-single-details"
+                onClick={handleBuyNow}
+              >
+                Buy Now
+              </button>
             </div>
           </div>
           <div className="product-ratings-single-details">
