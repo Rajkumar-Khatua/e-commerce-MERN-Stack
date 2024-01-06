@@ -21,6 +21,9 @@ import { CartProvider } from "./components/Cart/Cart";
 import CartPage from "./pages/CartPage/CartPage";
 import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
 import ThankYouPage from "./pages/ThankYou/ThankYou";
+import Contact from "./pages/Contact/Contact";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import Career from "./pages/Career/Career";
 
 function App() {
   const queryClient = new QueryClient();
@@ -79,6 +82,9 @@ function App() {
           path: "/thank-you",
           element: <ThankYouPage />,
         },
+        { path: "/about-us", element: <AboutUs /> },
+        { path: "/contact-us", element: <Contact /> },
+        { path: "/careers", element: <Career /> },
         {
           path: "/login",
           element: <Login setAuthenticatedUser={setAuthenticatedUser} />,

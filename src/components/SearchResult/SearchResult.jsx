@@ -1,4 +1,3 @@
-// SearchResult.js
 import React from 'react';
 import './SearchResult.scss';
 
@@ -7,7 +6,6 @@ const SearchResult = ({ results }) => {
     <div className="search-result">
       {results.map((result) => (
         <div key={result.id} className="result-item">
-          {/* Display your search results here */}
           {result.name}
         </div>
       ))}

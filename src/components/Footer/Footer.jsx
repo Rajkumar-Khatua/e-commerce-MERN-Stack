@@ -18,7 +18,6 @@ const Footer = () => {
           <FaInstagram className="social__icon__IG" />
           <FaLinkedin className="social__icon__LD" />
         </div>
-        {/* Other content in the left part */}
       </div>
       <div className="middle">
         <h4 className="middle_Title">Useful Links</h4>
@@ -32,13 +31,12 @@ const Footer = () => {
           <Link className="footer__link" to="/about-us">
             About Us
           </Link>
-          <Link className="footer__link" to="/contact">
+          <Link className="footer__link" to="/contact-us">
             Contact Us
           </Link>
-          <Link className="footer__link" to="/career">
+          <Link className="footer__link" to="/careers">
             Career
           </Link>
-          {/* Add more links as needed */}
         </ul>
       </div>
       <div className="right">

@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProductCard.scss"; // Add your styling
+import "./ProductCard.scss"; 
 import { Link } from "react-router-dom";
 import { FaOpencart } from "react-icons/fa6";
 import { BsInfoCircle } from "react-icons/bs";

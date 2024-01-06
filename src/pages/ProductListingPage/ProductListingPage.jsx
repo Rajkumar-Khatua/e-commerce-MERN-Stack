@@ -45,7 +45,6 @@ const ProductListingPage = () => {
         sortedProducts.sort((a, b) => new Date(a.date) - new Date(b.date));
       }
 
-      // Apply other filters
       sortedProducts = sortedProducts
         .filter(
           (product) =>
