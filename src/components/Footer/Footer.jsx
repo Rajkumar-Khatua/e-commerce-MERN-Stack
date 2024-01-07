@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="left">
         <Link to="/" className="logo">
-          Ss Store
+        Your Store
         </Link>
         <div className="social-icons">
           <FaFacebook className="social__icon__FB" />
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bottom">
-        <p>&copy; 2024 Ss Store. All rights reserved.</p>
+        <p>&copy; 2024 Your Store. All rights reserved.</p>
         <span>Made With - 🌹</span>
       </div>
     </footer>

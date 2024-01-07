@@ -18,7 +18,7 @@ const Contact = () => {
           channels:
         </p>
         <ul>
-          <li>Email: <a href="mailto:info@ssstore.com">info@ssstore.com</a></li>
+          <li>Email: <a href="mailto:info@Your Store.com">info@Your Store.com</a></li>
           <li>Phone: +1 (123) 456-7890</li>
           <li>Address: 1234 Store Street, Cityville, Country</li>
         </ul>

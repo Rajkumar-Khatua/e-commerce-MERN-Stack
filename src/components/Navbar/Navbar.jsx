@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className={`navbar ${isAuthenticated ? "authenticated" : ""}`}>
       <div className="leftNavBar">
         <Link to="/" className="logo">
-          Ss Store
+        Your Store
         </Link>
       </div>
       <div className="middleNavBar">

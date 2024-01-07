@@ -8,7 +8,7 @@ const AboutUs = () => {
       <section className="about-section">
         <h1>Welcome to Ss Store</h1>
         <p>
-          At Ss Store, we believe in providing a seamless shopping experience for our
+          At Your Store, we believe in providing a seamless shopping experience for our
           customers. Our commitment is to offer a diverse range of high-quality
           products at affordable prices.
         </p>
