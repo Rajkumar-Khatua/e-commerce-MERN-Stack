@@ -52,7 +52,6 @@ const Login = ({ setAuthenticatedUser }) => {
           placeholder="Enter your username"
           className="login-input"
           required
-
         />
 
         <label htmlFor="password" className="login-label">
@@ -68,7 +67,6 @@ const Login = ({ setAuthenticatedUser }) => {
             placeholder="Enter your password"
             className="login-input"
             required
-
           />
           <button
             type="button"

@@ -1,4 +1,3 @@
-// AboutUs.jsx
 import React from 'react';
 import './AboutUs.scss';
 
@@ -6,7 +5,7 @@ const AboutUs = () => {
   return (
     <div className="about-us-container">
       <section className="about-section">
-        <h1>Welcome to Ss Store</h1>
+        <h1>Welcome to Your Store</h1>
         <p>
           At Your Store, we believe in providing a seamless shopping experience for our
           customers. Our commitment is to offer a diverse range of high-quality
