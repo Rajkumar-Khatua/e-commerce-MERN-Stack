@@ -137,6 +137,20 @@ const ProductListingPage = () => {
     });
   };
 
+  // Add handleCategoryChange function
+  const handleCategoryChange = (categoryName) => {
+    const updatedCategoryFilters = selectedFilters.category.includes(
+      categoryName
+    )
+      ? selectedFilters.category.filter((category) => category !== categoryName)
+      : [...selectedFilters.category, categoryName];
+
+    setSelectedFilters({
+      ...selectedFilters,
+      category: updatedCategoryFilters,
+    });
+  };
+
   return (
     <div className="ProductListingPage">
       {/* Mobile filters */}
@@ -180,6 +194,30 @@ const ProductListingPage = () => {
                 Oldest
               </option>
             </select>
+          </div>
+          {/* Sort By categories */}
+          <div className="filter-by-category">
+            <span className="filter-by-category-title">Filter by category</span>
+            <div className="filter-by-category-list">
+              {data && Array.isArray(data.categories) ? (
+                data.categories.map((category) => (
+                  <div className="filter-by-category-item" key={category}>
+                    <input
+                      type="checkbox"
+                      name={category}
+                      id={category}
+                      onChange={() => handleCategoryChange(category)}
+                      checked={selectedFilters.category.includes(category)}
+                    />
+                    <label htmlFor={category}>{category}</label>
+                  </div>
+                ))
+              ) : (
+                <p>
+                  No categories available or data is not in the expected format
+                </p>
+              )}
+            </div>
           </div>
 
           <div className="filter-by-price">

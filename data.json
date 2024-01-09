@@ -23,6 +23,7 @@
         "IP68 dust/water resistant for added durability",
         "Stereo speakers tuned by AKG for immersive audio"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "manufacturer": {
         "name": "Samsung Electronics Co., Ltd.",
         "country": "South Korea",
@@ -73,6 +74,7 @@
         "MagSafe technology for accessories",
         "Water and dust resistance (IP68)"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "manufacturer": {
         "name": "Apple Inc.",
         "country": "United States",
@@ -108,6 +110,7 @@
         "Warp Charge 65T",
         "In-display fingerprint sensor"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "manufacturer": {
         "name": "OnePlus Technology Co., Ltd.",
         "country": "China",
@@ -143,6 +146,7 @@
         "Titan M security module",
         "IP68 water and dust resistance"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "manufacturer": {
         "name": "Google LLC",
         "country": "United States",
@@ -179,6 +183,7 @@
         "IP68 dust/water resistant for added durability",
         "Stereo speakers tuned by AKG for immersive audio"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "manufacturer": {
         "name": "Samsung Electronics Co., Ltd.",
         "country": "South Korea",
@@ -231,6 +236,7 @@
         "IP68 dust/water-resistant",
         "Fast wireless charging"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "manufacturer": {
         "name": "Huawei Technologies Co., Ltd.",
         "country": "China",
@@ -271,6 +277,7 @@
         "country": "Japan",
         "website": "https://www.sony.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -306,6 +313,7 @@
         "country": "South Korea",
         "website": "https://www.lg.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -341,6 +349,7 @@
         "country": "United States",
         "website": "https://www.motorola.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -376,6 +385,7 @@
         "country": "Finland",
         "website": "https://www.nokia.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -400,6 +410,7 @@
         "Triple camera setup for versatile photography",
         "Large AMOLED display for immersive visuals"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": "ROG UI based on Android",
       "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
       "dimensions": "TBD",
@@ -433,6 +444,7 @@
         "High-capacity storage for extensive content",
         "Large AMOLED display for immersive visuals"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": "ZUI 13 based on Android",
       "connectivity": "5G capable, Wi-Fi 6E, Bluetooth 5.2, NFC, USB Type-C",
       "dimensions": "TBD",
@@ -466,6 +478,7 @@
         "Dual camera setup for photography",
         "Compact IPS LCD display"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": "BlackBerry OS",
       "connectivity": "4G LTE, Wi-Fi 5, Bluetooth 5.0, NFC, USB Type-C",
       "dimensions": "TBD",
@@ -499,6 +512,7 @@
         "Immersive AMOLED display",
         "Large storage for multimedia"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": "MiFavor UI based on Android",
       "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
       "dimensions": "TBD",
@@ -533,6 +547,7 @@
         "Dolby Atmos dual stereo speakers",
         "Vapor Cooling System"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": "Realme UI 3.0 based on Android 12",
       "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
       "dimensions": "162.9 x 75.2 x 8.4 mm",
@@ -566,6 +581,7 @@
         "Stylish design with AMOLED display",
         "Large storage capacity"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": "Magic UI 5.1 based on Android 11",
       "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
       "dimensions": "TBD",
@@ -599,6 +615,7 @@
         "Premium design with Ceramic White color",
         "Large storage capacity"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": "ColorOS 13 based on Android 12",
       "connectivity": "5G capable, Wi-Fi 6E, Bluetooth 5.2, NFC, USB Type-C",
       "dimensions": "TBD",
@@ -632,6 +649,7 @@
         "Large AMOLED display for immersive visuals",
         "Large storage for extensive content"
       ],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": "OriginOS based on Android 12",
       "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
       "dimensions": "TBD",
@@ -663,6 +681,7 @@
       "image": "https://rukminim2.flixcart.com/image/416/416/ku5ufm80/mobile/q/s/c/edge-20-pro-pany0009in-motorola-original-imag7csrdfzh6eqh.jpeg?q=70",
       "date": "2024-07-25T14:15:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -691,6 +710,7 @@
       "image": "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/y/v/6/9-128-c-ta-1087-ds-nokia-6-original-imafg98nken2dhmh.jpeg?q=70",
       "date": "2024-08-30T10:30:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -727,6 +747,7 @@
         "country": "Japan",
         "website": "https://www.sony.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -755,6 +776,7 @@
         "country": "China",
         "website": "https://www.mi.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -783,6 +805,7 @@
         "country": "United States",
         "website": "https://store.google.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -811,6 +834,7 @@
         "country": "China",
         "website": "https://consumer.huawei.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -839,6 +863,7 @@
         "country": "South Korea",
         "website": "https://www.lg.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -867,6 +892,7 @@
         "country": "China",
         "website": "https://global.blackshark.com/"
       },
+      "categories": ["Electronics", "Smartphones"],
       "ratings": {
         "average": 0,
         "count": 0,
@@ -887,6 +913,7 @@
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71u-1krs2XL._SX679_.jpg",
       "date": "2025-03-05T09:30:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -915,6 +942,7 @@
       "image": "https://fdn2.gsmarena.com/vv/pics/zte/zte-nubia-red-magic-7-1.jpg",
       "date": "2025-04-10T14:15:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -943,6 +971,7 @@
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/41E6NOuNt3L.jpg",
       "date": "2025-05-15T20:00:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -971,6 +1000,7 @@
       "image": "https://fdn2.gsmarena.com/vv/pics/infinix/infinix-zero-x-pro-.jpg",
       "date": "2025-06-20T11:45:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -999,6 +1029,7 @@
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81Ke5qtC6oL._SX679_.jpg",
       "date": "2025-07-25T17:30:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -1027,6 +1058,7 @@
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/713sb7VUFQL._SX569_.jpg",
       "date": "2025-08-30T10:00:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -1055,6 +1087,7 @@
       "image": "https://s3bo.cashify.in/gpro/uploads/2021/03/27112258/vivo-y73s-front.png?p=gp4sq&s=gp",
       "date": "2025-09-05T15:45:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -1083,6 +1116,7 @@
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/31Tah4TynYL.jpg",
       "date": "2025-10-10T21:30:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -1111,6 +1145,7 @@
       "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone6-01.jpg",
       "date": "2025-11-15T12:15:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -1139,6 +1174,7 @@
       "image": "https://images.hindustantimes.com/tech/htmobile4/P37132/heroimage/149300-v1-lenovo-legion-duel-3-5g-mobile-phone-large-1.jpg?impolicy=new-ht-20210112&width=500&height=500",
       "date": "2025-12-20T14:30:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -1167,6 +1203,7 @@
       "image": "https://m.media-amazon.com/images/I/51P9CqFy0IL._AC_SX466_.jpg",
       "date": "2026-01-25T09:15:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -1195,6 +1232,7 @@
       "image": "https://fdn2.gsmarena.com/vv/pics/zte/zte-axon-30-ultra-1.jpg",
       "date": "2026-02-29T19:30:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
@@ -1223,6 +1261,7 @@
       "image": "https://rukminim2.flixcart.com/image/416/416/kg9qbgw0/mobile/f/f/j/cat-s62-pro-s62-pro-original-imafwjq4zngsqsfb.jpeg?q=70",
       "date": "2026-03-05T14:45:00",
       "features": [],
+      "categories": ["Electronics", "Smartphones"],
       "operating_system": null,
       "connectivity": null,
       "weight": null,
