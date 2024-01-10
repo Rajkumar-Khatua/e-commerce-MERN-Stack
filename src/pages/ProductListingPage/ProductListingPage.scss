@@ -115,6 +115,24 @@
         }
       }
 
+      .toggle-brand{
+        background: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-size: 16px;
+        width: fit-content;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        outline: none;
+        &:hover {
+          color: #f26a2e;
+        }
+
+
+      }
       // filter by price in input range
       .filter-by-price {
         display: flex;
@@ -170,6 +188,23 @@
             border-radius: 8px;
             transition: all 0.3s ease-in-out;
           }
+        }
+      }
+
+      .toggle-color{
+        background: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-size: 16px;
+        width: fit-content;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        outline: none;
+        &:hover {
+          color: #f26a2e;
         }
       }
 

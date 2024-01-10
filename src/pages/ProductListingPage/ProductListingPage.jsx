@@ -11,7 +11,6 @@ const ProductListingPage = () => {
   const [showFilters, setShowFilters] = useState(window.innerWidth < 767);
   const [filteredProducts, setFilteredProducts] = useState(data.mobiles);
   const [selectedDateFilters, setSelectedDateFilters] = useState([]);
-
   const [selectedFilters, setSelectedFilters] = useState({
     date: "latest",
     price: 0,
@@ -104,6 +103,11 @@ const ProductListingPage = () => {
     });
   };
 
+  const [showBrandFilters, setShowBrandFilters] = useState(false);
+
+  const toggleBrandFiltersVisibility = () => {
+    setShowBrandFilters(!showBrandFilters);
+  };
   const getSortedBrandNames = (products) => {
     const brandNames = Array.from(
       new Set(products.map((product) => product.brand))
@@ -125,6 +129,12 @@ const ProductListingPage = () => {
     });
   };
 
+  const [showColorFilters, setShowColorFilters] = useState(false);
+
+  const toggleColorFiltersVisibility = () => {
+    setShowColorFilters(!showColorFilters);
+  };
+
   // Add handleColorChange function
   const handleColorChange = (colorName) => {
     const updatedColorFilters = selectedFilters.color.includes(colorName)
@@ -134,20 +144,6 @@ const ProductListingPage = () => {
     setSelectedFilters({
       ...selectedFilters,
       color: updatedColorFilters,
-    });
-  };
-
-  // Add handleCategoryChange function
-  const handleCategoryChange = (categoryName) => {
-    const updatedCategoryFilters = selectedFilters.category.includes(
-      categoryName
-    )
-      ? selectedFilters.category.filter((category) => category !== categoryName)
-      : [...selectedFilters.category, categoryName];
-
-    setSelectedFilters({
-      ...selectedFilters,
-      category: updatedCategoryFilters,
     });
   };
 
@@ -195,123 +191,64 @@ const ProductListingPage = () => {
               </option>
             </select>
           </div>
-          {/* Sort By categories */}
-          <div className="filter-by-category">
-            <span className="filter-by-category-title">Filter by category</span>
-            <div className="filter-by-category-list">
-              {data && Array.isArray(data.categories) ? (
-                data.categories.map((category) => (
-                  <div className="filter-by-category-item" key={category}>
+
+          {/* Button to toggle brand filters visibility */}
+          <button
+            className="toggle-brand"
+            onClick={toggleBrandFiltersVisibility}
+          >
+            {showBrandFilters ? "Hide Brand Filters" : "Show Brand Filters"}
+          </button>
+
+          {/* Filter by brand */}
+          {showBrandFilters && (
+            <div className="filter-by-brand">
+              <span className="filter-by-brand-title">Filter by brand</span>
+              <div className="filter-by-brand-list">
+                {sortedBrandNames.map((brandName) => (
+                  <div className="filter-by-brand-item" key={brandName}>
                     <input
                       type="checkbox"
-                      name={category}
-                      id={category}
-                      onChange={() => handleCategoryChange(category)}
-                      checked={selectedFilters.category.includes(category)}
+                      name={brandName}
+                      id={brandName}
+                      onChange={() => handleBrandChange(brandName)}
+                      checked={selectedFilters.brand.includes(brandName)}
                     />
-                    <label htmlFor={category}>{category}</label>
+                    <label htmlFor={brandName}>{brandName}</label>
                   </div>
-                ))
-              ) : (
-                <p>
-                  No categories available or data is not in the expected format
-                </p>
-              )}
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
-          <div className="filter-by-price">
-            <span className="filter-by-price-title">Filter by price</span>
-            {/* filter price by range */}
-            <div className="filter-by-price-range">
-              <input
-                type="range"
-                name=""
-                id=""
-                className="price-range-input"
-                min={0}
-                max={2000}
-                value={selectedFilters.price}
-                onChange={handlePriceChange}
-              />
-              <span>${selectedFilters.price}</span>
-            </div>
-          </div>
-          {/* filter by brand */}
-          <div className="filter-by-brand">
-            <span className="filter-by-brand-title">Filter by brand</span>
-            <div className="filter-by-brand-list">
-              {sortedBrandNames.map((brandName) => (
-                <div className="filter-by-brand-item" key={brandName}>
-                  <input
-                    type="checkbox"
-                    name={brandName}
-                    id={brandName}
-                    // Add an onChange handler to handle brand selection
-                    onChange={() => handleBrandChange(brandName)}
-                    checked={selectedFilters.brand.includes(brandName)}
-                  />
-                  <label htmlFor={brandName}>{brandName}</label>
-                </div>
-              ))}
-            </div>
-          </div>
+          {/* Button to toggle color filters visibility */}
+          <button
+            className="toggle-color"
+            onClick={toggleColorFiltersVisibility}
+          >
+            {showColorFilters ? "Hide Color Filters" : "Show Color Filters"}
+          </button>
 
           {/* filter by color */}
-          <div className="filter-by-color">
-            <span className="filter-by-color-title">Filter by color</span>
-            <div className="filter-by-color-list">
-              {getSortedColorNames(data.mobiles).map((colorName) => (
-                <div className="filter-by-color-item" key={colorName}>
-                  <input
-                    type="checkbox"
-                    name={colorName}
-                    id={colorName}
-                    onChange={() => handleColorChange(colorName)}
-                    checked={selectedFilters.color.includes(colorName)}
-                  />
-                  <label htmlFor={colorName}>{colorName}</label>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* filter by rating */}
-          <div className="filter-by-rating">
-            <span className="filter-by-rating-title">Filter by rating</span>
-            <div className="filter-by-rating-list">
-              <div className="filter-by-rating-item">
-                <input type="checkbox" name="" id="" />
-                <GiCursedStar className="rating-icon" />
-              </div>
-              <div className="filter-by-rating-item">
-                <input type="checkbox" name="" id="" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
-              </div>
-              <div className="filter-by-rating-item">
-                <input type="checkbox" name="" id="" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
-              </div>
-              <div className="filter-by-rating-item">
-                <input type="checkbox" name="" id="" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
-              </div>
-              <div className="filter-by-rating-item">
-                <input type="checkbox" name="" id="" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
-                <GiCursedStar className="rating-icon" />
+          {showColorFilters && (
+            <div className="filter-by-color">
+              <span className="filter-by-color-title">Filter by color</span>
+              <div className="filter-by-color-list">
+                {getSortedColorNames(data.mobiles).map((colorName) => (
+                  <div className="filter-by-color-item" key={colorName}>
+                    <input
+                      type="checkbox"
+                      name={colorName}
+                      id={colorName}
+                      onChange={() => handleColorChange(colorName)}
+                      checked={selectedFilters.color.includes(colorName)}
+                    />
+                    <label htmlFor={colorName}>{colorName}</label>
+                  </div>
+                ))}
               </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
       <div className="right">

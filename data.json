@@ -55,74 +55,114 @@
     },
     {
       "id": 2,
-      "name": "iPhone 12",
+      "name": "Apple MacBook Pro 16-inch",
       "brand": "Apple",
-      "description": "Elegant and high-performance iPhone.",
-      "price": 1099.99,
-      "color": "Midnight Green",
-      "storage": "256GB",
-      "camera": "Dual 12MP+12MP",
-      "display": "6.1 inches Super Retina XDR",
-      "battery": "2815mAh",
-      "processor": "A14 Bionic",
-      "operating_system": "iOS 14",
-      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.0, NFC, Lightning port",
-      "dimensions": "146.7 x 71.5 x 7.4 mm",
-      "weight": "164 grams",
-      "features": [
-        "Ceramic Shield front cover",
-        "MagSafe technology for accessories",
-        "Water and dust resistance (IP68)"
+      "description": "Unleash your creativity with the powerful MacBook Pro 16-inch, featuring a stunning Retina display, a magic keyboard, and high-performance internals for seamless multitasking.",
+      "price": 2399.99,
+      "color": "Space Gray",
+      "storage": "1TB SSD",
+      "processor": "Intel Core i9, 8-core, 9th Gen",
+      "memory": "32GB RAM",
+      "display": "16-inch Retina display, 3072 x 1920 pixels resolution",
+      "graphics": "AMD Radeon Pro 5500M with 4GB of GDDR6 memory",
+      "battery": "100-Wh lithium-polymer battery",
+      "ports": [
+        "4 x Thunderbolt 3 (USB-C) ports",
+        "3.5mm headphone jack",
+        "SDXC card slot",
+        "HDMI port"
       ],
-      "categories": ["Electronics", "Smartphones"],
+      "operating_system": "macOS Monterey",
+      "dimensions": "35.79 x 24.59 x 1.62 cm",
+      "weight": "2.0 kg",
+      "features": [
+        "Magic Keyboard with a scissor mechanism",
+        "Touch Bar and Touch ID for added security",
+        "Six-speaker sound system for immersive audio",
+        "Studio-quality three-microphone array",
+        "Force Touch trackpad for precise control"
+      ],
+      "categories": ["Electronics", "Laptops"],
       "manufacturer": {
         "name": "Apple Inc.",
         "country": "United States",
         "website": "https://www.apple.com/"
       },
       "ratings": {
-        "average": 0,
-        "count": 0,
-        "reviews": []
+        "average": 4.8,
+        "count": 95,
+        "reviews": [
+          {
+            "user": "CreativeDesigner",
+            "rating": 5,
+            "comment": "Perfect laptop for graphic design and video editing."
+          },
+          {
+            "user": "TechFanatic",
+            "rating": 4.5,
+            "comment": "Excellent build quality and performance."
+          },
+          {
+            "user": "DigitalNomad23",
+            "rating": 5,
+            "comment": "The Retina display is simply breathtaking."
+          }
+        ]
       },
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71gm8v4uPBL._SL1500_.jpg",
+      "image": "https://cdn2.macworld.co.uk/cmsdata/features/3723052/16in-macbook-pro-2019-images-2.jpg",
       "date": "2023-06-20T14:45:00"
     },
     {
       "id": 3,
-      "name": "OnePlus 9 Pro",
-      "brand": "OnePlus",
-      "description": "Flagship killer with Hasselblad camera.",
-      "price": 899.99,
-      "color": "Morning Mist",
-      "storage": "256GB",
-      "camera": "Quad 48MP+50MP+8MP+2MP",
-      "display": "6.7 inches Fluid AMOLED",
-      "battery": "4500mAh",
-      "processor": "Qualcomm Snapdragon 888",
-      "operating_system": "OxygenOS based on Android 11",
-      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.2, NFC, USB Type-C",
-      "dimensions": "163.2 x 73.6 x 8.7 mm",
-      "weight": "197 grams",
+      "name": "Sony PlayStation 5",
+      "brand": "Sony",
+      "description": "Experience the next generation of gaming with the powerful Sony PlayStation 5, featuring stunning graphics, ultra-fast SSD, and an innovative DualSense controller for immersive gameplay.",
+      "price": 499.99,
+      "color": "Jet Black",
+      "storage": "825GB NVMe SSD",
+      "processor": "Custom AMD Ryzen Zen 2, 8-core",
+      "memory": "16GB GDDR6 RAM",
+      "graphics": "AMD Radeon RDNA 2",
+      "resolution": "Up to 8K",
+      "audio": "Tempest 3D AudioTech",
+      "dimensions": "39 x 10.4 x 26 cm",
+      "weight": "4.5 kg",
       "features": [
-        "Hasselblad camera partnership",
-        "120Hz Fluid AMOLED display",
-        "Warp Charge 65T",
-        "In-display fingerprint sensor"
+        "Ray tracing for realistic lighting and reflections",
+        "Ultra HD Blu-ray drive for physical game discs",
+        "Backward compatibility with PS4 games",
+        "Create and share content with the built-in Create button",
+        "Adaptive triggers and haptic feedback for enhanced gameplay"
       ],
-      "categories": ["Electronics", "Smartphones"],
+      "categories": ["Electronics", "Gaming Consoles"],
       "manufacturer": {
-        "name": "OnePlus Technology Co., Ltd.",
-        "country": "China",
-        "website": "https://www.oneplus.com/"
+        "name": "Sony Corporation",
+        "country": "Japan",
+        "website": "https://www.sony.com/"
       },
       "ratings": {
-        "average": 0,
-        "count": 0,
-        "reviews": []
+        "average": 4.9,
+        "count": 80,
+        "reviews": [
+          {
+            "user": "GamingEnthusiast",
+            "rating": 5,
+            "comment": "A true powerhouse for gaming enthusiasts!"
+          },
+          {
+            "user": "TechGuru",
+            "rating": 4.5,
+            "comment": "Impressive graphics and fast loading times."
+          },
+          {
+            "user": "ConsoleCollector",
+            "rating": 5,
+            "comment": "Love the design and performance of the PS5."
+          }
+        ]
       },
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61H5BvUlNeS._SX679_.jpg",
-      "date": "2023-07-25T08:15:00"
+      "image": "https://media.playstation.com/is/image/SCEA/ps5-with-dualsense-front-product-shot-01-ps5-en-30jul20?$native_t$",
+      "date": "2023-08-10T18:00:00"
     },
     {
       "id": 4,
@@ -162,56 +202,49 @@
     },
     {
       "id": 5,
-      "name": "Samsung Galaxy S21",
-      "brand": "Samsung",
-      "description": "Experience cutting-edge technology with the Samsung Galaxy S21, a flagship smartphone packed with powerful features to redefine your mobile experience.",
-      "price": 999.99,
-      "color": "Phantom Gray",
-      "storage": "128GB",
-      "camera": "Triple 12MP (wide) + 12MP (ultrawide) + 64MP (telephoto)",
-      "display": "6.2 inches Dynamic AMOLED, 2400 x 1080 pixels resolution, 120Hz refresh rate",
-      "battery": "4000mAh, non-removable Li-Ion battery",
-      "processor": "Exynos 2100 (Global) / Snapdragon 888 (USA)",
-      "operating_system": "Android 11 with One UI 3.1",
-      "connectivity": "5G capable, Wi-Fi 6, Bluetooth 5.0, NFC, USB Type-C",
-      "dimensions": "151.7 x 71.2 x 7.9 mm",
-      "weight": "171 grams",
+      "name": "Nike Air Max 270 Sneakers",
+      "brand": "Nike",
+      "description": "Step into style and comfort with Nike Air Max 270 Sneakers. Featuring a sleek design, responsive cushioning, and breathable mesh upper, these sneakers are perfect for both athletic activities and casual wear.",
+      "price": 129.99,
+      "color": "Black/White",
+      "size": "Men's US 10",
+      "material": "Mesh and synthetic upper, rubber sole",
+      "closure": "Lace-up",
       "features": [
-        "HDR10+ certified display for stunning visuals",
-        "In-display fingerprint sensor for enhanced security",
-        "Wireless PowerShare for reverse wireless charging",
-        "IP68 dust/water resistant for added durability",
-        "Stereo speakers tuned by AKG for immersive audio"
+        "Visible Max Air unit for responsive cushioning",
+        "Lightweight and breathable design",
+        "Durable rubber outsole for traction",
+        "Stylish black and white color combination"
       ],
-      "categories": ["Electronics", "Smartphones"],
+      "categories": ["Fashion", "Footwear"],
       "manufacturer": {
-        "name": "Samsung Electronics Co., Ltd.",
-        "country": "South Korea",
-        "website": "https://www.samsung.com/"
+        "name": "Nike, Inc.",
+        "country": "United States",
+        "website": "https://www.nike.com/"
       },
       "ratings": {
-        "average": 4.5,
-        "count": 120,
+        "average": 4.7,
+        "count": 45,
         "reviews": [
           {
-            "user": "JohnDoe123",
+            "user": "SneakerFanatic",
             "rating": 5,
-            "comment": "Fantastic phone with a stunning camera!"
+            "comment": "Comfortable and stylish. Love these sneakers!"
           },
           {
-            "user": "TechEnthusiast22",
-            "rating": 4,
-            "comment": "Great performance and sleek design."
-          },
-          {
-            "user": "MobileGuru",
+            "user": "Fashionista",
             "rating": 4.5,
-            "comment": "Battery life is impressive, and the display is top-notch."
+            "comment": "Great for both workouts and casual outings."
+          },
+          {
+            "user": "AthleisureLover",
+            "rating": 4,
+            "comment": "Nice design and good support for daily wear."
           }
         ]
       },
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81cHpJNr07L._SL1500_.jpg",
-      "date": "2023-05-15T10:30:00"
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/te2kznnmjbplldhtsptq/air-max-270-shoe-WmwLhT.jpg",
+      "date": "2023-07-20T15:45:00"
     },
 
     {
